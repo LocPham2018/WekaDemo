@@ -1,0 +1,565 @@
+@RELATION LOP_12
+
+@ATTRIBUTE name
+@ATTRIBUTE gender {Nam,Nữ}
+@ATTRIBUTE Toan {G,K,TB,Y}
+@ATTRIBUTE Li {G,K,TB,Y}
+@ATTRIBUTE Hoa {G,K,TB,Y}
+@ATTRIBUTE Sinh {G,K,TB,Y}
+@ATTRIBUTE Van {G,K,TB,Y}
+@ATTRIBUTE Su {G,K,TB,Y}
+@ATTRIBUTE Dia {G,K,TB,Y}
+@ATTRIBUTE NN {G,K,TB,Y}
+@ATTRIBUTE CN {G,K,TB,Y}
+@ATTRIBUTE GDCD {G,K,TB,Y}
+
+@DATA
+Nguyễn Thành An,Nam,G,G,G,G,K,K,G,K,G,G
+Đinh Thị Mai Anh,Nữ,G,G,G,K,K,K,G,K,G,G
+Mai Thị Thục Anh,Nữ,G,G,G,G,G,G,G,K,G,G
+Kim Đức Dũng,Nam,G,G,K,G,K,G,G,G,G,G
+Nguyễn Đình Dũng,Nam,G,G,G,G,K,K,G,K,G,G
+Phùng An Duy,Nam,G,G,G,G,K,G,G,K,G,G
+Trần Thị Thu Hà,Nữ,G,G,G,G,K,K,G,K,G,G
+Kim Thị Hồng Hạnh,Nữ,G,G,G,K,K,K,G,K,G,G
+Nguyễn Thị Thu Hằng,Nữ,G,G,G,G,K,G,G,K,G,G
+Đinh Thị Mai Hoa,Nữ,G,G,K,K,G,K,G,G,G,G
+Đinh Thị Ánh Hồng,Nữ,G,G,G,G,K,G,G,K,G,G
+Đặng Thị Mỹ Huệ,Nữ,G,G,K,G,K,K,G,K,G,G
+Nguyễn Ngọc Huyền,Nữ,G,G,G,G,K,G,G,G,G,G
+Nguyễn Tuyết Thương Huyền,Nữ,G,G,G,G,K,G,G,K,G,G
+Phạm Thị Ngọc Huyền,Nữ,G,G,G,G,K,G,G,K,G,G
+Nguyễn Thu Hương,Nữ,G,G,G,K,K,K,G,K,G,G
+Nguyễn Duy Khánh,Nam,G,G,G,K,TB,K,G,TB,G,G
+Lê Thị Thùy Linh,Nữ,G,G,K,G,K,G,G,K,G,G
+Nguyễn Hải Linh,Nữ,G,G,G,G,K,K,G,K,G,G
+Nguyễn Hữu Linh,Nam,G,G,K,K,TB,K,G,G,G,G
+Trần Thị Khánh Linh,Nữ,G,G,K,K,K,K,G,K,G,G
+Lê Thị Hiền Lương,Nữ,G,G,K,K,K,K,G,G,G,G
+Nguyễn Thị Hải Ly,Nữ,G,G,K,G,G,G,G,K,G,G
+Nguyễn Thị Thu Mai,Nữ,G,G,G,K,K,G,G,K,G,G
+Nguyễn Trà Mi,Nữ,G,G,G,G,G,K,G,K,G,G
+Kim Ngọc Minh,Nam,G,G,K,K,K,K,G,K,G,G
+Đinh Thị Hà My,Nữ,G,G,G,K,K,K,G,K,G,G
+Nguyễn Bích Ngọc,Nữ,G,G,G,G,K,G,G,G,G,G
+Nguyễn Thị Bích Ngọc,Nữ,G,G,G,G,G,G,G,G,G,G
+Nguyễn Hoài Phương,Nữ,G,G,G,G,K,G,G,K,G,G
+Nguyễn Văn Quang,Nam,G,G,G,K,TB,K,G,TB,G,G
+Trịnh Anh Quân,Nam,G,G,G,G,K,K,G,G,G,G
+Đàm Thị Như Quỳnh,Nữ,G,G,G,K,K,K,G,K,G,G
+Kim Ngọc Sơn,Nam,G,G,G,G,K,G,G,G,G,G
+Lê Anh Sơn,Nam,G,G,G,K,TB,G,G,TB,G,G
+Mai Danh Tấn,Nam,G,G,G,K,TB,K,G,TB,G,G
+Lê Phương Thảo,Nữ,G,G,G,G,K,G,G,K,G,G
+Nguyễn Thị Minh Thảo,Nữ,G,G,G,G,G,G,G,G,G,G
+Bùi Đức Thọ,Nam,G,G,K,K,TB,K,G,K,G,G
+Đặng Văn Toàn,Nam,G,G,G,G,K,K,G,K,G,G
+Nguyễn Ngọc Toàn,Nam,G,G,G,G,TB,G,G,K,G,G
+Lê Thùy Trang,Nữ,G,G,G,K,K,G,G,K,G,G
+Ngô Thị Ngọc Trinh,Nữ,G,G,K,G,G,K,G,G,G,G
+Trần Xuân Trường,Nam,G,G,G,K,TB,K,G,Y,G,G
+Lê Mạnh Tú,Nam,G,G,G,K,TB,G,G,TB,G,G
+Lê Minh Tường,Nam,G,G,G,K,TB,K,G,TB,G,G
+Phạm Đỗ Diệu Anh,Nữ,G,G,K,G,K,K,G,G,G,G
+Trần Quốc Chính,Nam,G,G,K,K,K,K,G,G,G,G
+Vũ Việt Dũng,Nam,G,G,G,G,K,K,G,G,G,G
+Lê Đình Duy,Nam,G,G,G,G,K,G,G,K,G,G
+Trần Đức Duy,Nam,G,G,G,G,K,K,G,G,G,G
+Nguyễn Thị Ánh Dương,Nữ,G,G,G,G,K,K,G,G,G,G
+Nguyễn Minh Đức,Nam,G,G,G,G,K,K,G,G,G,G
+Trần Văn Đức,Nam,G,K,K,G,K,G,G,G,G,G
+Nguyễn Trường Giang,Nam,G,G,G,G,K,K,K,G,G,G
+Trần Văn Hào,Nam,G,G,K,G,K,K,G,K,G,G
+Trần Quang Hiển,Nam,G,G,K,G,K,K,G,G,G,G
+Nguyễn Ngọc Huyền,Nữ,G,G,G,G,K,G,G,G,G,G
+Mai Thị Tân Hương,Nữ,G,G,G,G,G,K,G,G,G,G
+Đinh Văn Khải,Nam,G,G,G,G,K,K,K,G,G,G
+Nguyễn Thị Khanh,Nữ,G,G,G,G,K,K,G,G,G,G
+Đỗ Duy Khánh,Nam,G,G,G,G,K,K,G,G,G,G
+Trần Thị Ngọc Lan,Nữ,G,K,K,G,K,K,G,G,G,G
+Nguyễn Thị Hồng Liên,Nữ,G,G,K,G,K,K,G,G,G,G
+Trần Thị Hồng Liên,Nữ,G,G,G,G,K,K,G,G,G,G
+Bùi Thùy Linh,Nữ,G,G,K,G,K,K,G,G,G,G
+Hoàng Vân Linh,Nữ,G,G,K,G,G,G,G,G,G,G
+Nguyễn Thị Thùy Linh,Nữ,G,G,G,G,K,K,G,G,G,G
+Nguyễn Thị Khánh Ly,Nữ,G,G,G,G,K,K,K,G,G,G
+Nguyễn Thị Ngọc Mai,Nữ,G,G,K,G,K,G,G,G,G,G
+Nguyễn Thị Trà My,Nữ,G,G,G,G,K,K,G,G,G,G
+Nguyễn Bảo Ngọc,Nữ,K,G,K,G,K,K,G,G,G,G
+Nguyễn Hữu Quốc Phú,Nam,G,G,G,G,K,K,K,K,G,G
+Vũ Như Phương,Nữ,G,G,G,G,K,K,G,G,G,G
+Ngô Văn Quyết,Nam,G,G,G,G,K,K,K,G,G,G
+Lê Văn Song,Nam,G,G,G,G,K,G,G,G,G,G
+Nguyễn Thượng Tài,Nam,G,G,G,K,K,K,K,G,G,G
+Mai Thị Minh Tâm,Nữ,G,G,G,G,K,K,G,G,G,G
+Ngô Trần Đức Thái,Nam,G,G,G,G,K,K,G,G,G,G
+Bùi Thị Thanh,Nữ,G,G,G,G,G,K,G,G,G,G
+Lê Thị Phương Thảo,Nữ,G,G,G,G,K,K,G,G,G,G
+Trần Thị Thảo,Nữ,G,G,G,G,K,K,G,G,G,G
+Nguyễn Hữu Thi,Nam,G,G,K,G,K,K,G,G,G,G
+Kim Anh Thư,Nữ,G,K,K,G,G,G,G,G,G,G
+Nguyễn Văn Tiến,Nam,G,K,G,G,K,K,G,K,G,G
+Nguyễn Khắc Phong Toàn,Nam,G,G,G,G,K,K,G,G,G,G
+Bùi Mai Thu Trang,Nữ,G,K,K,G,G,K,G,G,G,G
+Nguyễn Thùy Trang,Nữ,G,G,K,G,K,G,G,G,G,G
+Nguyễn Đức Trọng,Nam,G,G,G,G,K,K,G,G,G,G
+Nguyễn Văn Tuấn,Nam,G,G,G,G,K,K,G,G,G,G
+Nguyễn Thị Thu Vân,Nữ,G,G,K,G,K,K,G,G,G,G
+Nguyễn Đình Vinh,Nam,G,K,K,G,K,K,G,G,G,G
+Trần Duy Anh,Nam,G,K,K,G,K,K,K,TB,G,G
+Nguyễn Đình Cảnh,Nam,G,G,G,G,K,K,G,K,G,G
+Bùi Thị Chi,Nữ,G,G,G,G,K,G,G,K,G,G
+Phạm Linh Chi,Nữ,G,G,G,G,G,G,G,K,G,G
+Bạch Thị Cúc,Nữ,G,G,G,G,G,G,G,K,G,G
+Lê Đình Khánh Duy,Nam,K,K,TB,G,K,K,K,K,G,G
+Lê Ðức Duy,Nam,G,G,K,G,K,K,G,K,G,G
+Nguyễn Thị Thùy Dương,Nữ,G,G,G,G,K,K,G,K,G,G
+Nguyễn Thành Đạt,Nam,G,K,K,G,K,K,G,K,G,G
+Nguyễn Hữu Đồng,Nam,K,G,K,G,K,K,G,K,G,G
+Đào Minh Đức,Nam,G,G,G,G,K,G,G,K,G,G
+Trịnh Thanh Hải,Nam,G,G,K,K,K,K,G,K,G,G
+Nguyễn Ngọc Hòa,Nam,G,K,K,G,K,K,G,TB,G,G
+Nguyễn Thị Huệ,Nữ,G,G,G,G,G,K,G,K,G,G
+Nguyễn Thị Huệ,Nữ,G,G,G,G,K,G,G,K,G,G
+Nguyễn Quang Huy,Nam,G,G,G,G,K,K,G,K,G,G
+Trịnh Quốc Huy,Nam,G,G,G,G,K,K,G,K,G,G
+Đinh Thị Thanh Huyền,Nữ,G,G,G,G,G,K,G,K,G,G
+Nguyễn Thu Huyền,Nữ,G,G,G,G,G,G,G,K,G,G
+Nguyễn Thu Huyền,Nữ,G,G,G,G,G,G,G,K,G,G
+Vũ Thị Thu Huyền,Nữ,G,G,K,G,G,G,G,K,G,G
+Bạch Quốc Khánh,Nam,G,G,K,G,K,K,G,K,G,G
+Nguyễn Thị Liên,Nữ,G,G,G,G,K,K,G,K,G,G
+Nguyễn Trúc Linh,Nữ,G,G,K,G,G,K,G,K,G,G
+Trần Phúc Lộc,Nam,G,K,TB,K,G,K,G,K,G,G
+Trần Văn Lương,Nam,G,G,K,G,K,K,G,K,G,G
+Nguyễn Thị Lý,Nữ,G,G,G,G,G,K,G,K,G,G
+Nguyễn Bá Mạnh,Nam,K,G,K,G,K,K,G,K,G,G
+Nguyễn Tiến Mạnh,Nam,G,G,K,G,K,K,G,K,G,G
+Đinh Nhật Minh,Nữ,G,G,G,G,K,K,G,G,G,G
+Trần Thị Nhàn,Nữ,K,K,K,G,K,G,G,K,G,G
+Trịnh Tấn Phát,Nam,G,K,K,G,G,K,G,K,G,G
+Đinh Thị Mai Phương,Nữ,G,G,K,G,G,K,G,G,G,G
+Nguyễn Thị Quyên,Nữ,G,G,G,G,G,G,G,K,G,G
+Trần Văn Thành,Nam,G,G,K,G,K,K,G,K,G,G
+Nguyễn Thị Thu Thảo,Nữ,G,G,K,G,G,K,G,K,G,G
+Nguyễn Thị Xuân Thu,Nữ,G,G,K,G,G,K,G,G,G,G
+Dư Thùy Thương,Nữ,G,G,K,G,G,K,G,K,G,G
+Dương Anh Tuấn,Nam,G,G,G,G,K,K,G,K,G,G
+Nguyễn Hữu Tuấn,Nam,G,G,G,G,K,K,G,K,G,G
+Trịnh Thị Tố Uyên,Nữ,G,G,G,G,G,G,G,K,G,G
+Phùng Thị Tường Vân,Nữ,G,G,K,G,G,G,G,K,G,G
+Lê Đình Vinh,Nam,G,G,G,G,K,G,G,K,G,G
+Ðặng Hoàng Vũ,Nam,G,K,G,K,K,K,K,K,G,G
+Lê Tuấn Vũ,Nam,K,G,K,G,K,K,G,K,G,G
+Nguyễn Thị Hải Yến,Nữ,G,G,K,G,K,K,G,G,G,G
+Nguyễn Việt Anh,Nam,G,G,K,G,K,K,G,G,G,K
+Bùi Trung Chiến,Nam,G,G,G,K,K,G,K,G,K,G
+Kim Ngọc Chính,Nam,G,G,G,G,K,K,G,G,G,K
+Bùi Thị Dung,Nữ,G,G,K,K,K,G,K,G,G,K
+Lê Văn Duy,Nam,G,G,G,G,K,K,G,G,G,K
+Bùi Thị Duyên,Nữ,G,G,G,G,K,K,G,G,G,G
+Nguyễn Hà Giang,Nữ,G,G,K,G,G,K,K,G,K,G
+Bùi Thị Hà,Nữ,G,G,G,G,K,G,G,G,K,K
+Đinh Thị Hồng Hạnh,Nữ,G,G,G,K,K,G,G,G,G,G
+Ngô Thị Thúy Hằng,Nữ,G,G,G,K,K,G,G,G,G,G
+Trịnh Xuân Hiếu,Nam,G,G,G,G,K,K,K,K,G,K
+Đinh Thị Huyền,Nữ,G,G,G,G,K,G,G,G,G,K
+Mai Thị Thu Huyền,Nữ,G,G,G,G,G,K,G,G,G,K
+Nguyễn Mai Hương,Nữ,G,G,G,G,G,K,G,G,G,G
+Vũ Thị Hường,Nữ,G,G,G,G,G,G,G,G,G,G
+Trần Phương Khanh,Nữ,G,G,G,G,K,G,G,G,K,G
+Bùi Văn Quốc Khánh,Nam,G,G,G,K,TB,K,K,K,G,K
+Đặng Đình Kiến,Nam,G,G,G,G,K,K,K,K,K,K
+Triệu Thị Thúy Lan,Nữ,G,G,K,K,G,K,K,G,G,K
+Nguyễn Tiến Lâm,Nam,G,G,K,G,K,K,K,K,G,G
+Dương Văn Minh,Nam,G,G,K,G,K,K,K,G,G,K
+Hoàng Thị Hằng Nga,Nữ,G,G,G,G,G,K,G,G,G,G
+Lê Thị Kim Ngoan,Nữ,G,G,G,K,K,K,G,G,G,G
+Nguyễn Thị Ánh Nguyệt,Nữ,G,G,G,K,K,K,K,G,G,G
+Nguyễn Quang Phát,Nam,G,G,G,G,K,G,K,G,G,K
+Lê Mai Phương,Nữ,G,G,K,K,K,K,G,G,G,G
+Lê Thu Phương,Nữ,G,G,G,G,K,G,K,G,G,K
+Kim Ngọc Quý,Nam,G,G,K,K,K,K,K,G,G,G
+Phùng Thị Mỹ Tâm,Nữ,G,G,G,G,K,K,G,G,G,G
+Nguyễn Phương Thanh,Nữ,G,G,G,G,K,K,G,K,G,K
+Nguyễn Thị Mỹ Thảo,Nữ,G,G,G,G,K,G,K,G,G,K
+Trần Thị Thùy,Nữ,G,G,G,G,K,K,G,G,G,G
+Đinh Xuân Trọng,Nam,G,G,G,G,K,G,G,G,G,G
+Nguyễn Công Tuấn,Nam,G,G,K,K,K,K,K,K,K,K
+Đinh Văn Tuyên,Nam,G,G,K,K,K,G,K,K,G,K
+Lê Thị Thu Uyên,Nữ,G,G,K,G,G,G,G,G,G,G
+Trịnh Thị Uyên,Nữ,G,G,K,G,G,K,K,G,G,G
+Nguyễn Thị Xuân,Nữ,G,G,G,G,K,K,G,G,G,G
+Nguyễn Thị Phụng Anh,Nữ,G,G,K,G,G,K,G,G,G,K
+Nguyễn Thị Vân Anh,Nữ,G,G,G,K,K,K,G,G,K,K
+Phạm Thị Lan Anh,Nữ,G,G,K,K,G,G,G,G,G,G
+Nguyễn Hữu Bảo,Nam,G,G,G,K,K,K,G,K,K,K
+Bùi Minh Chiến,Nam,K,G,K,K,K,K,G,K,K,K
+Ðoàn Minh Chiến,Nam,K,G,K,K,K,G,G,K,K,K
+Ðỗ Thành Công,Nam,G,G,G,K,K,K,G,K,K,K
+Trần Hiền Dịu,Nữ,G,G,K,K,G,K,G,K,G,G
+Nguyễn Ðức Doanh,Nam,K,K,K,K,K,K,K,G,K,K
+Nguyễn Minh Duy,Nam,K,K,K,K,K,K,K,K,K,K
+Đinh Tiến Đại,Nam,TB,K,K,K,K,K,K,K,K,K
+Đỗ Tiến Đạt,Nam,K,K,K,K,K,K,K,K,K,K
+Vũ Thị Thu Hà,Nữ,K,G,K,K,K,G,G,K,G,K
+Lê Minh Hiếu,Nam,K,K,K,K,K,K,K,K,K,K
+Hoàng Thị Hoa,Nữ,K,G,G,K,K,K,G,K,K,K
+Bùi Đức Huy,Nam,K,K,K,K,K,K,G,K,G,K
+Đinh Thị Thu Huyền,Nữ,G,G,K,K,K,G,G,G,G,G
+Nguyễn Thị Hương,Nữ,G,G,K,K,G,K,G,G,G,G
+Nguyễn Thị Minh Khai,Nữ,K,G,K,K,K,K,G,K,G,K
+Vũ Quang Kiên,Nam,K,G,G,K,K,K,G,K,K,K
+Kim Thị Ngọc Linh,Nữ,K,G,K,K,K,K,G,G,K,K
+Đinh Thị Lưu,Nữ,G,G,G,K,G,K,G,K,K,K
+Nguyễn Đỗ Phượng Mai,Nữ,G,G,K,K,K,K,G,G,K,K
+Đinh Anh Minh,Nam,G,G,K,K,K,K,K,G,K,K
+Hà Thị Thanh Nga,Nữ,K,G,G,K,K,K,G,K,K,K
+Trần Trung Nghĩa,Nam,K,K,K,K,K,K,K,G,K,K
+Đinh Trung Nguyên,Nam,K,K,K,K,K,K,K,K,K,K
+Ðặng Thành Nhân,Nam,K,K,K,K,K,K,G,K,G,K
+Nguyễn Thị Hồng Nhung,Nữ,G,K,K,K,G,K,G,G,K,K
+Nguyễn Thị Hồng nhung,Nữ,G,G,K,K,K,G,G,G,G,K
+Nguyễn Văn Quyền,Nam,G,K,K,K,K,K,G,K,G,K
+Nguyễn Thị Như Quỳnh,Nữ,K,G,G,K,K,K,G,K,G,K
+Ðặng Ðình Thái,Nam,K,G,G,G,K,G,G,K,G,K
+Trần Minh Thành,Nam,G,G,G,K,K,K,K,G,K,K
+Trương Văn Thành,Nam,G,K,K,K,K,K,K,K,K,K
+Hoàng Văn Thắng,Nam,G,G,G,K,K,K,K,K,K,K
+Nguyễn Thu Thủy,Nữ,G,K,K,K,G,G,G,G,G,G
+Nguyễn Thị Kim Thúy,Nữ,G,K,K,G,K,K,G,G,K,K
+Phạm Minh Thư,Nữ,G,K,K,K,G,K,G,G,G,K
+Nguyễn Phương Trang,Nữ,K,G,K,K,G,K,G,G,G,G
+Nguyễn Thị Tươi,Nữ,G,G,K,K,K,K,G,K,G,K
+Phạm Tiến Vũ,Nam,G,G,K,K,K,K,G,G,G,K
+Nguyễn Thị Bảo Yến,Nữ,G,G,G,G,K,K,G,K,G,K
+Trần Thị Yến,Nữ,G,G,K,G,G,G,G,K,K,G
+Bùi Việt Anh,Nam,K,K,K,K,K,K,K,TB,K,G
+Đinh Lan Anh,Nữ,G,K,K,K,G,K,G,G,K,G
+Trần Đức Anh,Nam,G,G,G,K,K,K,G,K,G,K
+Trần Thị Châm Anh,Nữ,G,G,G,K,K,K,G,K,K,G
+Nguyễn Ngọc Ánh,Nữ,G,K,G,K,G,K,G,K,K,K
+Nghiêm Mạnh Bình,Nam,G,G,G,K,K,K,K,K,K,G
+Nguyễn Thanh Bình,Nam,G,K,K,K,G,K,K,K,K,G
+Đỗ Tiến Dũng,Nam,G,G,G,K,K,K,K,K,K,K
+Nguyễn Đức Duy,Nam,K,K,K,K,K,K,K,TB,K,K
+Nguyễn Hữu Đạt,Nam,K,K,K,K,K,K,G,K,K,K
+Nguyễn Văn Đức,Nam,G,G,G,K,K,K,K,TB,K,K
+Nguyễn Thu Giang,Nữ,G,G,G,G,G,G,G,K,G,G
+Nguyễn Thị Thu Hà,Nữ,G,K,K,K,K,K,G,TB,K,K
+Nguyễn Thu Hà,Nữ,K,G,K,K,G,K,G,K,K,K
+Vũ Thị Thu Hà,Nữ,G,K,K,K,K,K,K,TB,K,G
+Ngô Thị Hải,Nữ,G,G,G,K,K,K,G,K,K,K
+Bùi Minh Hiếu,Nam,G,G,G,K,K,K,G,TB,K,G
+Nguyễn Văn Hiếu,Nam,K,K,K,K,K,K,G,TB,G,K
+Đàm Thị Hoa,Nữ,G,K,G,K,G,K,K,K,K,G
+Trần Thị Thu Hoài,Nữ,G,G,G,G,K,K,G,G,K,G
+Đặng Thị Ánh Hồng,Nữ,G,G,G,G,K,K,K,TB,K,K
+Nguyễn Thế Huân,Nam,K,G,K,K,K,K,K,TB,K,K
+Trần Văn Huân,Nam,TB,K,K,K,K,K,K,K,K,K
+Nguyễn Thu Huyền,Nữ,K,K,K,K,K,K,G,TB,G,G
+Trương Thị Huyền,Nữ,G,G,G,K,K,K,K,TB,K,K
+Bùi Đức Khải,Nam,K,K,K,TB,TB,TB,K,TB,K,K
+Trần Công Khanh,Nam,K,K,K,K,K,K,G,K,K,G
+Nguyễn Thị Hương Lan,Nữ,K,K,K,K,K,K,G,K,K,G
+Đặng Phương Mai,Nữ,K,K,K,K,G,G,G,G,K,G
+Phạm Duy Nghĩa,Nam,K,G,K,K,K,K,K,K,G,G
+Nguyễn Văn Ngọc,Nam,K,K,K,K,K,K,K,TB,K,G
+Trịnh Thùy Như,Nữ,G,G,K,K,G,K,G,K,K,G
+Nguyễn Xuân Phong,Nam,K,K,K,K,K,K,G,TB,K,K
+Trịnh Thị Thu Phương,Nữ,K,K,K,K,K,K,G,K,K,G
+Bùi Việt Quang,Nam,G,K,K,K,K,K,Y,K,K,K
+Nguyễn Minh Quang,Nam,G,G,G,K,K,K,G,K,G,K
+Đinh Thị Ngọc Quyên,Nữ,G,G,G,G,K,K,G,K,G,G
+Nguyễn Mạnh Sinh,Nam,K,K,K,K,K,K,K,K,K,K
+Đinh Văn Sơn,Nam,K,K,K,K,K,K,K,K,K,G
+Đinh Trọng Tấn,Nam,K,K,K,K,K,K,K,K,K,G
+Vũ Dương Biền,Nam,K,K,K,K,TB,K,G,G,K,K
+Nguyễn Văn Bình,Nam,G,G,K,K,TB,K,K,K,K,K
+Nguyễn Thị Linh Chi,Nữ,K,K,K,K,K,K,G,K,G,G
+Hoàng Khánh Duy,Nam,K,K,K,K,K,K,G,K,G,G
+Nguyễn Văn Duy,Nam,K,K,K,K,TB,K,K,K,K,K
+Đỗ Tiến Đạo,Nam,TB,K,K,K,TB,K,K,K,K,K
+Nguyễn Hoàng Hà,Nam,K,K,K,K,TB,K,K,K,K,K
+Nguyễn Thị Hạnh,Nữ,G,G,G,G,K,K,G,K,K,G
+Bùi Phúc Hậu,Nam,G,K,K,G,K,K,G,K,G,G
+Phùng Thị Hải Hậu,Nữ,K,K,K,K,K,K,G,K,K,G
+Lê Tôn Hiệp,Nam,K,K,K,K,TB,K,K,K,G,K
+Trần Xuân Hiếu,Nam,K,G,K,G,TB,K,K,K,K,K
+Vũ Minh Hoàng,Nam,K,K,K,K,TB,K,K,K,K,K
+Trần Văn Hợp,Nam,TB,K,K,K,TB,TB,K,K,K,K
+Đinh Thị Khánh Huyền,Nữ,G,K,K,K,K,K,G,G,K,G
+Nguyễn Thùy Hương,Nữ,G,G,G,K,K,K,G,K,K,G
+Nguyễn Bá Khánh,Nam,K,K,K,K,TB,K,K,K,K,K
+Trần Xuân Khánh,Nam,G,K,K,K,K,K,G,K,K,G
+Trịnh Bảo Khánh,Nam,K,G,K,K,K,K,K,K,G,K
+Nguyễn Viết Lộc,Nam,K,K,K,K,TB,K,K,K,K,G
+Trương Văn Lộc,Nam,K,K,K,K,TB,K,G,K,K,K
+Nguyễn Thị Nga,Nữ,G,G,G,K,K,K,G,G,G,G
+Văn Trọng Phong,Nam,K,K,K,K,TB,K,G,K,K,G
+Phùng Văn Phương,Nam,K,K,K,K,K,K,K,K,K,G
+Cao Xuân Quang,Nam,K,K,K,K,TB,K,K,K,K,K
+Nguyễn Minh Quang,Nam,K,K,K,K,TB,K,K,K,K,K
+Trần Ngọc Quân,Nam,K,K,K,K,K,K,K,K,K,G
+Nguyễn Thị Quỳnh,Nữ,K,K,K,K,K,K,K,G,K,G
+Lê Ngọc Sơn,Nam,K,K,K,K,TB,K,G,K,K,K
+Ngô Hoàng Sơn,Nam,TB,K,K,K,K,K,K,K,K,K
+Nguyễn Hữu Ngọc Sơn,Nam,G,G,G,G,K,K,G,K,G,G
+Nguyễn Thị Thanh,Nữ,K,K,K,K,TB,K,K,K,G,K
+Nguyễn Phương Thuỳ,Nữ,K,K,K,K,K,K,G,K,K,K
+Bùi Thị Lệ Thuỷ,Nữ,G,G,G,G,K,K,G,K,K,G
+Nguyễn Thị Mai Thương,Nữ,K,K,K,K,K,K,G,K,K,G
+Đào Thị Huyền Trang,Nữ,K,K,K,K,K,K,G,G,G,K
+Nguyễn Thu Trang,Nữ,K,K,K,K,K,K,K,K,K,K
+Nguyễn Văn Tuấn,Nam,K,K,K,K,K,K,K,K,K,G
+Đỗ Thu Uyên,Nữ,K,K,K,K,K,K,G,K,K,G
+Nguyễn Quốc Việt,Nam,K,K,K,K,TB,K,K,K,K,G
+Phùng Thị Hải Yến,Nữ,K,K,K,K,K,K,K,K,G,G
+Nguyễn Đức Anh,Nam,K,K,K,K,K,K,G,TB,G,K
+Nguyễn Đình Chiến,Nam,K,K,K,K,K,K,G,TB,K,G
+Phạm Đức Chính,Nam,G,K,G,G,K,K,G,K,G,G
+Nguyễn Trí Công,Nam,K,K,K,K,K,K,G,TB,K,K
+Phạm Quang Công,Nam,K,K,K,K,K,K,G,TB,K,G
+Nguyễn Xuân Đạt,Nam,K,K,K,G,K,G,G,TB,K,G
+Trần Thị Hà,Nữ,G,G,G,G,G,K,G,K,G,G
+Đinh Văn Hải,Nam,K,K,K,K,K,G,G,K,G,G
+Đào Thị Thu Hiếu,Nữ,G,K,K,K,G,K,G,TB,K,G
+Lê Ngọc Hiếu,Nam,K,K,K,K,K,K,K,TB,G,G
+Vũ Bá Hùng,Nam,K,K,K,K,K,K,G,TB,K,G
+Nguyễn Thị Huyền,Nữ,K,K,K,K,G,K,G,K,K,G
+Lê Thị Thu Hường,Nữ,K,K,K,K,G,G,G,TB,G,G
+Hoàng Tuấn Kiệt,Nam,K,K,K,K,K,K,G,TB,K,K
+Bùi Thị Mỹ Linh,Nữ,G,K,K,K,G,G,K,K,G,G
+Đinh Thị Linh,Nữ,K,K,K,K,K,K,G,TB,K,G
+Hoàng Thị Thùy Linh,Nữ,G,K,K,K,G,K,K,K,G,G
+Nguyễn Thị Bích Loan,Nữ,G,K,K,G,G,K,G,K,K,G
+Trần Thị Trà My,Nữ,K,K,K,K,K,K,G,TB,G,K
+Hồ Phương Nam,Nam,K,K,K,K,K,K,G,TB,G,G
+Hoàng Thị Phương Nga,Nữ,K,G,G,G,G,K,G,TB,G,G
+Phạm Thị Ngân,Nữ,K,K,K,K,K,K,G,TB,G,G
+Nguyễn Đình Nghĩa,Nam,G,K,K,K,K,K,G,TB,K,K
+Nguyễn Hữu Nghĩa,Nam,K,K,K,K,K,K,K,TB,K,K
+Nguyễn Như Ngọc,Nữ,G,G,G,G,G,K,G,TB,G,G
+Bùi Trang Nhung,Nữ,K,K,K,K,G,K,G,K,G,G
+Ngô Văn Phúc,Nam,G,K,K,K,K,K,G,TB,K,K
+Nguyễn Trung Soái,Nam,K,K,K,K,K,K,G,TB,K,G
+Bạch Thanh Sơn,Nam,K,K,K,K,K,K,G,TB,G,K
+Nguyễn Thị Phương Thanh,Nữ,G,K,K,K,G,G,G,K,G,G
+Nguyễn Đức Thành,Nam,G,K,K,K,K,K,G,TB,K,K
+Lê Văn Thắng,Nam,G,K,K,K,G,K,G,K,K,G
+Mai Thị Thoan,Nữ,K,K,K,K,G,K,G,TB,G,K
+Trần Công Tiến,Nam,K,K,K,K,K,K,K,TB,K,G
+Nguyễn Hữu Trang,Nam,G,K,K,K,K,K,G,K,K,G
+Nguyễn Thị Thu Trang,Nữ,G,K,K,K,G,K,G,K,G,G
+Lê Duy Trình,Nam,K,K,K,K,K,K,G,TB,K,K
+Nguyễn Trí Trung,Nam,K,K,K,K,K,K,K,TB,K,K
+Nguyễn Mạnh Tuấn,Nam,K,K,K,K,K,K,G,TB,G,G
+Đinh Xuân Tuyên,Nam,G,K,G,K,K,K,G,TB,K,G
+Nguyễn Hà Vi,Nữ,G,K,K,G,G,K,G,K,G,G
+Lê Tuấn Anh,Nam,K,K,K,TB,K,K,K,TB,K,K
+Nguyễn Đức Tuấn Anh,Nam,G,G,K,K,K,K,G,K,K,K
+Phạm Thị Thanh Anh,Nữ,K,K,K,K,K,K,G,K,K,K
+Vũ Ngọc Ánh,Nữ,K,K,K,K,K,K,G,TB,K,K
+Vũ Thị Châm,Nữ,G,G,K,K,K,K,G,K,G,G
+Vũ Kim Chi,Nữ,K,K,K,K,K,G,G,TB,K,K
+Vũ Thị Lệ Chi,Nữ,K,K,K,TB,K,K,G,TB,G,K
+Nguyễn Văn Cường,Nam,G,G,K,K,K,K,G,K,G,K
+Lã Văn Dũng,Nam,K,K,K,K,K,K,G,K,G,K
+Nguyễn Văn Dũng,Nam,G,G,K,TB,K,G,G,K,G,K
+Trần Đức Duy,Nam,K,K,K,K,K,K,G,K,K,K
+Nguyễn Văn Đà,Nam,TB,K,K,TB,TB,K,G,TB,K,K
+Phùng Văn Giang,Nam,G,G,K,K,K,K,G,K,G,K
+Phan Thị Huyền Hảo,Nữ,K,K,K,K,K,K,G,K,K,K
+Vũ Thị Hảo,Nữ,K,K,K,K,K,K,G,TB,G,K
+Vũ Thị Hiền,Nữ,G,K,K,K,K,K,K,TB,K,K
+Nguyễn Thị Thu Hoài,Nữ,K,K,K,K,K,K,G,TB,G,K
+Bạch Văn Hoàng,Nam,K,K,K,TB,TB,K,G,TB,K,TB
+Phạm Văn Hùng,Nam,K,K,K,K,K,K,G,TB,G,K
+Nguyễn Hữu Hưng,Nam,G,K,K,K,K,K,G,TB,K,K
+Nguyễn Thị Lan Hương,Nữ,K,K,K,K,K,K,G,K,G,K
+Nguyễn Thị Thu Hương,Nữ,K,K,K,K,K,K,G,K,K,K
+Đỗ Trung Kiên,Nam,K,K,K,G,K,K,G,K,G,K
+Lê Hải Ly,Nữ,K,K,K,K,K,K,G,K,K,K
+Đỗ Văn Minh,Nam,K,K,K,TB,TB,K,G,TB,K,TB
+Hoàng Văn Minh,Nam,K,K,K,K,K,K,G,K,G,K
+Trần Hải Nam,Nam,G,K,K,K,K,K,G,TB,K,K
+Kim Thị Hồng Nhung,Nữ,TB,K,K,K,K,K,G,TB,G,K
+Đinh Văn Quang,Nam,K,K,K,K,TB,K,G,TB,G,K
+Phạm Văn Quân,Nam,K,K,K,K,TB,K,G,TB,G,K
+Đinh Thị Thảo,Nữ,K,K,G,K,K,K,G,K,G,K
+Nguyễn Thị Thảo,Nữ,K,G,K,K,K,K,G,K,G,K
+Lê Ðức Thắng,Nam,K,G,K,K,K,K,G,K,G,K
+Phùng Văn Thế,Nam,K,K,K,K,TB,K,G,TB,G,K
+Nguyễn Đức Thịnh,Nam,G,G,K,K,K,K,G,K,K,K
+Đinh Văn Tiến,Nam,K,K,K,TB,K,K,K,TB,G,K
+Đinh Thị Trang,Nữ,K,K,K,K,K,K,G,K,G,K
+Đinh Văn Tùng,Nam,G,G,K,TB,K,K,K,K,K,K
+Nguyễn Hữu Tuyên,Nam,K,K,K,TB,K,K,K,TB,K,K
+Dương Thị Tú Anh,Nữ,K,K,K,G,K,K,G,TB,G,G
+Nguyễn Thị Quỳnh Anha,Nữ,Y,K,Y,Y,K,G,Y,Y,G,G
+Nguyễn Thị Quỳnh Anh,Nữ,G,K,K,K,K,K,K,TB,G,K
+Vũ Thị Anh,Nữ,K,K,K,K,K,K,G,K,G,K
+Hoàng Văn Công,Nam,K,K,K,K,TB,K,G,K,G,K
+Nguyễn Tiến Dương,Nam,K,TB,TB,K,TB,K,K,TB,K,K
+Lê Ngọc Đại,Nam,G,TB,K,K,K,K,K,TB,G,K
+Nguyễn Việt Đức,Nam,K,K,K,G,K,K,K,K,G,K
+Phùng Minh Đức,Nam,K,K,TB,K,K,K,K,TB,G,K
+Nguyễn Thị Thanh Hà,Nữ,K,K,K,K,K,G,G,TB,G,K
+Phạm Quang Hải,Nam,K,K,K,K,TB,K,G,TB,K,G
+Trịnh Ngọc Hải,Nam,K,K,K,K,K,K,G,TB,G,G
+Trần Thị Hạnh,Nữ,K,K,G,G,K,K,G,K,G,G
+Vũ Thị Hằng,Nữ,K,G,G,G,K,K,G,TB,G,G
+Đào Thị Mai Hiền,Nữ,K,K,K,K,K,G,G,TB,G,K
+Dương Tiến Hoàn,Nam,K,K,K,K,K,K,G,TB,G,G
+Nguyễn Thị Hương,Nữ,K,K,K,K,K,K,G,TB,G,K
+Nguyễn Đức Khang,Nam,K,K,K,K,K,K,K,K,G,K
+Vũ Thị Phương Lan,Nữ,K,K,K,G,K,K,G,TB,G,G
+Phùng Thị Thanh Loan,Nữ,K,K,K,K,K,K,G,TB,G,K
+Kim Ngọc Long,Nam,K,K,K,K,K,K,K,TB,G,G
+Bùi Thị Hồng Ly,Nữ,K,K,K,G,K,K,G,K,G,G
+Bùi Phan Ngọc Minh,Nam,K,K,K,K,TB,K,K,TB,TB,K
+Lê Đức Minh,Nam,K,K,K,K,K,K,G,TB,G,G
+Lê Hồng Ngọc,Nữ,K,K,K,K,K,K,G,K,G,K
+Nguyễn Đức Phước,Nam,G,K,K,K,K,K,K,TB,G,K
+Nguyễn Trung Quân,Nam,K,TB,K,K,K,K,K,TB,G,K
+Lê Thị Quý,Nữ,K,G,G,G,G,K,G,K,G,G
+Nguyễn Thị Thu Thanh,Nữ,G,K,G,G,K,K,K,TB,G,G
+Nguyễn Văn Thịnh,Nam,G,K,G,G,K,G,K,TB,G,G
+Đinh Thị Thu,Nữ,K,K,G,G,K,K,G,TB,G,G
+Nguyễn Thị Thủy,Nữ,K,K,K,G,G,K,G,G,G,G
+Dương Đức Toàn,Nam,K,G,G,G,K,K,G,K,G,K
+Hoàng Văn Trung,Nam,K,K,K,K,K,K,G,TB,G,K
+Mai Văn Tuấn,Nam,TB,K,K,K,TB,K,G,TB,G,K
+Mai Thanh Tùng,Nam,K,K,K,K,K,K,K,TB,G,K
+Nguyễn Long Vũ,Nam,G,K,K,K,K,K,K,TB,G,K
+Đinh Thị Xoan,Nữ,K,K,K,K,K,K,K,TB,G,K
+Nguyễn Đình Đức Anh,Nam,G,G,G,K,G,K,G,K,K,G
+Nguyễn Thị Trung Anh,Nữ,K,K,K,K,G,K,K,TB,G,K
+Lê Trần Ngọc Ánh,Nữ,K,K,K,K,G,K,K,TB,G,G
+Bùi Minh Công,Nam,K,K,K,K,K,K,K,TB,G,K
+Lê Tiến Dũng,Nam,K,K,TB,K,K,K,K,Y,K,G
+Nguyễn Anh Dũng,Nam,K,K,K,K,K,K,K,TB,K,K
+Đặng Tiến Dương,Nam,G,K,K,K,K,K,K,TB,K,K
+Nguyễn Minh Đức,Nam,K,K,K,K,G,K,K,TB,G,G
+Kim Thị Thu Hà,Nữ,K,K,K,K,K,K,K,TB,K,K
+Bùi Văn Hiếu,Nam,G,K,K,G,G,K,G,G,G,K
+Đỗ Văn Hiếu,Nam,K,K,K,K,K,K,K,TB,G,K
+Nguyễn Văn Hoàng,Nam,K,K,K,K,K,K,K,TB,K,K
+Nguyễn Thị Huế,Nữ,G,G,K,K,G,K,G,K,G,G
+Mai Quang Huy,Nam,K,G,K,K,K,K,G,TB,G,K
+Đinh Thị Thu Huyền,Nữ,K,K,K,K,G,K,K,K,G,G
+Lê Thị Khánh Huyền,Nữ,K,K,K,K,K,K,K,TB,K,K
+Nguyễn Thị Thanh Huyền,Nữ,K,K,K,K,K,K,K,TB,G,K
+Trần Thị Huyền,Nữ,K,K,K,K,K,K,K,TB,G,K
+Vũ Thị Mai Hương,Nữ,G,K,K,K,G,K,G,TB,G,K
+Đinh Thị Hường,Nữ,G,G,G,G,G,K,G,K,K,K
+Trịnh Văn Khang,Nam,K,K,K,K,K,K,G,TB,K,G
+Nguyễn Thị Mai Lan,Nữ,G,K,K,K,K,K,G,K,G,K
+Trần Thị Phương Liên,Nữ,G,G,G,K,G,G,G,G,G,G
+Phạm Khánh Linh,Nữ,K,K,K,K,G,K,G,TB,G,K
+Đinh Thành Long,Nam,K,K,K,K,K,K,K,TB,K,K
+Nguyễn Thị Mận,Nữ,G,K,K,K,G,K,G,K,G,G
+Lê Thị A Na,Nữ,K,K,K,K,G,K,G,K,G,K
+Bạch Thị Thanh Nga,Nữ,G,K,K,K,G,K,G,K,G,K
+Hoàng Thị Kim Ngân,Nữ,K,K,K,K,G,K,K,TB,G,K
+Nguyễn Thị Ngọc,Nữ,K,K,K,K,G,K,K,TB,G,G
+Bùi Duy Nhâm,Nam,K,G,K,K,K,K,K,TB,K,K
+Hoàng Văn Quý,Nam,TB,K,K,K,K,K,K,TB,K,K
+Ðặng Quang Sơn,Nam,K,K,K,K,K,K,K,TB,K,G
+Trương Công Sơn,Nam,TB,TB,TB,K,K,K,K,Y,K,K
+Bạch Thanh Tâm,Nữ,K,K,K,K,G,K,G,TB,G,K
+Lê Thị Mỹ Tân,Nữ,K,K,K,K,G,K,K,K,G,K
+Phùng Việt Tấn,Nam,K,K,K,K,K,K,K,TB,G,K
+Lê Thị Thanh,Nữ,G,G,K,K,G,G,G,K,G,K
+Đoàn Thị Thắm,Nữ,G,G,K,K,G,K,K,K,K,G
+Nguyễn Đức Thịnh,Nam,G,K,K,K,G,K,K,TB,K,G
+Phạm Thị Kim Thu,Nữ,G,K,K,K,K,G,G,K,G,G
+Nguyễn Thị Thanh Thuý,Nữ,G,K,K,K,G,K,G,K,G,K
+Mai Công Tuấn,Nam,G,K,K,K,G,K,G,TB,K,K
+Đinh Thị Tươi,Nữ,G,K,K,K,G,K,K,K,G,K
+Mai Danh Uy,Nam,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Nguyễn Thị Kim Anh,Nữ,G,G,K,K,G,G,G,G,G,G
+Đặng Thị Duyên,Nữ,G,G,K,K,G,G,G,G,G,G
+Lê Thị Thùy Dương,Nữ,G,K,K,K,G,G,G,K,G,G
+Phùng Việt Đức,Nam,K,K,K,K,K,K,K,G,G,G
+Nguyễn Thị Giang,Nữ,G,G,K,K,K,G,G,G,G,G
+Mai Hồng Hải,Nam,K,K,K,K,K,K,K,K,K,G
+Nguyễn Thị Hiên,Nữ,G,G,G,G,G,G,G,G,G,G
+Đinh Thu Hiền,Nữ,G,G,K,K,K,G,K,G,G,G
+Nguyễn Thị Thu Hòa,Nữ,K,K,K,K,K,K,K,G,K,K
+Phạm Thị Thanh Huyền,Nữ,G,K,K,K,K,G,K,K,K,K
+Bùi Thị Hương,Nữ,K,K,K,K,K,G,K,K,G,K
+Lê Thị Hường,Nữ,G,G,K,K,K,G,K,G,G,K
+Nguyễn Thị Hường,Nữ,G,K,K,K,K,K,K,K,G,G
+Trần Chí Kiên,Nam,G,K,K,K,K,G,G,G,G,G
+Đinh Thị Lan,Nữ,K,K,K,K,K,K,K,G,G,K
+Nguyễn Thị Diệu Linh,Nữ,G,G,K,K,K,G,K,K,K,K
+Vũ Thị Thùy Linh,Nữ,G,G,K,K,K,G,K,K,G,G
+Nguyễn Thị Lý,Nữ,G,K,K,K,K,G,K,G,G,G
+Vũ Thị Mai,Nữ,G,K,K,K,K,G,K,G,G,K
+Nghiêm Văn Mạnh,Nam,K,K,K,K,K,K,K,K,K,K
+Nguyễn Văn Mạnh,Nam,G,K,K,K,K,K,K,K,G,K
+Vũ Xuân Nam,Nam,G,G,K,K,K,K,G,G,G,K
+Phan Phùng Yến Nhi,Nữ,K,G,K,K,G,G,K,G,G,G
+Đào Lệ Nhuần,Nữ,K,K,K,K,K,G,K,K,G,G
+Đinh Thị Nhung,Nữ,G,K,K,K,K,G,G,G,G,G
+Nguyễn Hồng Phúc,Nam,K,G,K,K,K,G,G,G,G,K
+Nguyễn Anh Quốc,Nam,K,K,K,K,K,K,K,K,TB,K
+Nghiêm Văn Sơn,Nam,K,K,K,K,K,K,G,K,K,K
+Nguyễn Thanh Tài,Nam,K,K,K,K,K,K,K,K,TB,K
+Nguyễn Thị Thuỷ,Nữ,K,G,K,K,K,K,G,K,G,G
+Bạch Thị Trang,Nữ,G,G,K,G,G,G,G,G,G,G
+Hoàng Thị Hoài Trang,Nữ,G,K,K,K,G,G,K,G,G,G
+Nguyễn Thị Trang,Nữ,K,G,K,G,K,K,K,K,G,K
+Nguyễn Thị Huyền Trang,Nữ,G,G,G,G,G,G,G,G,G,G
+Ðặng Minh Tuấn,Nam,K,K,K,K,K,K,K,K,G,K
+Mai Thanh Tuấn,Nam,G,G,K,K,K,K,G,G,K,G
+Bùi Xuân Tùng,Nam,K,K,K,K,K,K,K,K,K,G
+Phạm Văn Uy,Nam,K,K,K,K,K,K,K,K,K,G
+Nguyễn Thị Vân,Nữ,K,K,K,K,G,K,K,G,G,G
+Nguyễn Thị Thảo Vân,Nữ,K,G,K,K,K,G,K,K,G,G
+Nguyễn Thị Yến,Nữ,K,G,K,K,G,G,K,G,G,G
+Nguyễn Ngọc Anh,Nữ,K,TB,K,K,K,K,K,K,G,K
+Nguyễn Thị Ngọc Ánh,Nữ,K,TB,K,K,K,K,G,K,G,K
+Nguyễn Hữu Bình,Nam,K,K,TB,K,K,K,G,K,G,K
+Nghiêm Thị Thuỳ Dương,Nữ,G,K,K,K,K,K,G,G,G,K
+Nguyễn Tiến Đạt,Nam,TB,TB,K,K,K,K,G,K,G,K
+Nguyễn Duy Đông,Nam,K,TB,K,K,K,K,K,K,K,K
+Nguyễn Văn Đức,Nam,TB,K,K,K,K,K,G,K,K,K
+Nguyễn Thị Giang,Nữ,G,G,G,K,G,K,G,G,G,K
+Lê Thu Hà,Nữ,G,K,G,K,K,K,G,K,G,G
+Phạm Thị Thanh Hải,Nữ,G,K,K,G,K,K,G,G,G,K
+Nguyễn Thị Thu Hiền,Nữ,K,K,K,K,K,K,K,K,G,K
+Nguyễn Thị Hồng Hoa,Nữ,K,TB,K,K,K,K,K,K,K,K
+Bùi Thị Lan Hương,Nữ,TB,K,K,K,K,K,G,K,G,K
+Đinh Thị Thúy Hường,Nữ,K,K,K,K,K,K,G,G,G,K
+Nguyễn Thị Lan,Nữ,TB,TB,K,K,K,K,K,K,K,G
+Nguyễn Thị Linh,Nữ,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Nguyễn Ngọc Long,Nam,TB,TB,TB,K,K,K,K,K,K,K
+Đặng Văn Lợi,Nam,K,K,TB,K,K,K,G,G,K,K
+Bùi Thị Mai,Nữ,K,K,K,K,K,K,G,K,G,K
+Đỗ Quang Minh,Nam,K,K,TB,K,K,K,G,K,K,K
+Nguyễn Văn Nam,Nam,K,TB,K,K,K,K,K,K,TB,K
+Bùi Thị Kim Ngân,Nữ,K,TB,K,K,K,K,G,G,G,K
+Bùi Minh Nguyệt,Nữ,K,TB,K,K,K,K,G,K,G,K
+Phạm Trang Nhung,Nữ,TB,K,TB,K,K,K,G,G,G,K
+Đào Việt Phát,Nam,K,TB,K,K,K,K,G,K,K,K
+Nguyễn Thị Phương,Nữ,K,K,K,K,K,K,K,K,G,K
+Bùi Ngọc Sơn,Nam,K,K,K,K,K,K,K,K,G,K
+Nguyễn Đức Tâm,Nam,K,TB,TB,K,K,K,K,K,K,K
+Nguyễn Công Thành,Nam,K,TB,TB,K,K,K,G,K,TB,K
+Phùng Thị Thao,Nữ,G,K,G,G,K,K,G,G,G,K
+Bùi Công Thể,Nam,K,TB,TB,K,K,K,K,K,G,K
+Đỗ Chí Thông,Nam,TB,TB,TB,K,K,K,K,K,K,K
+Nghiêm Thị Thơm,Nữ,K,K,K,K,K,K,G,K,G,K
+Nghiêm Thị Thu,Nữ,K,K,K,K,K,K,G,K,G,K
+Nguyễn Thị Thùy,Nữ,G,G,K,G,K,K,G,G,G,G
+Nguyễn Thị Thu Thúy,Nữ,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Hoàng Thị Thủy Tiên,Nữ,K,K,K,K,K,K,G,G,K,K
+Đinh Văn Trung,Nam,K,K,G,K,K,K,G,K,G,K
+Nguyễn Hữu Trường,Nam,TB,K,K,G,K,K,K,K,K,K
+Phạm Duy Tuấn,Nam,TB,TB,TB,K,K,K,K,K,K,K
+Lê Quang Tuyên,Nam,K,K,G,G,K,K,G,K,G,K
+Bùi Ánh Tuyết,Nữ,TB,TB,K,K,K,K,K,K,K,K
+Đinh Thị Mỹ Uyên,Nữ,TB,K,K,K,K,K,G,K,G,K
+Nguyễn Trung Yên,Nam,K,K,K,K,K,K,G,G,K,K

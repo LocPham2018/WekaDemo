@@ -1,0 +1,566 @@
+@RELATION LOP_12
+
+@ATTRIBUTE name
+@ATTRIBUTE gender {Nam,Nữ}
+@ATTRIBUTE Toan {G,K,TB,Y}
+@ATTRIBUTE Li {G,K,TB,Y}
+@ATTRIBUTE Hoa {G,K,TB,Y}
+@ATTRIBUTE Sinh {G,K,TB,Y}
+@ATTRIBUTE Van {G,K,TB,Y}
+@ATTRIBUTE Su {G,K,TB,Y}
+@ATTRIBUTE Dia {G,K,TB,Y}
+@ATTRIBUTE NN {G,K,TB,Y}
+@ATTRIBUTE CN {G,K,TB,Y}
+@ATTRIBUTE GDCD {G,K,TB,Y}
+@ATTRIBUTE NganhDinhHuong {Kinh doanh,Kỹ thuật,Nghệ thuật,Nghiên cứu,Nghiệp vụ,Xã hội}
+
+@DATA
+Nguyễn Thành An,Nam,G,G,G,G,K,K,G,K,G,G,Nghiên cứu
+Đinh Thị Mai Anh,Nữ,G,G,G,K,K,K,G,K,G,G,Nghiên cứu
+Mai Thị Thục Anh,Nữ,G,G,G,G,G,G,G,K,G,G,Nghiên cứu
+Kim Đức Dũng,Nam,G,G,K,G,K,G,G,G,G,G,Nghiên cứu
+Nguyễn Đình Dũng,Nam,G,G,G,G,K,K,G,K,G,G,Nghiên cứu
+Phùng An Duy,Nam,G,G,G,G,K,G,G,K,G,G,Nghiên cứu
+Trần Thị Thu Hà,Nữ,G,G,G,G,K,K,G,K,G,G,Nghiên cứu
+Kim Thị Hồng Hạnh,Nữ,G,G,G,K,K,K,G,K,G,G,Nghiên cứu
+Nguyễn Thị Thu Hằng,Nữ,G,G,G,G,K,G,G,K,G,G,Nghiên cứu
+Đinh Thị Mai Hoa,Nữ,G,G,K,K,G,K,G,G,G,G,Nghiên cứu
+Đinh Thị Ánh Hồng,Nữ,G,G,G,G,K,G,G,K,G,G,Nghiên cứu
+Đặng Thị Mỹ Huệ,Nữ,G,G,K,G,K,K,G,K,G,G,Nghiên cứu
+Nguyễn Ngọc Huyền,Nữ,G,G,G,G,K,G,G,G,G,G,Nghiên cứu
+Nguyễn Tuyết Thương Huyền,Nữ,G,G,G,G,K,G,G,K,G,G,Nghiên cứu
+Phạm Thị Ngọc Huyền,Nữ,G,G,G,G,K,G,G,K,G,G,Nghiên cứu
+Nguyễn Thu Hương,Nữ,G,G,G,K,K,K,G,K,G,G,Nghiên cứu
+Nguyễn Duy Khánh,Nam,G,G,G,K,TB,K,G,TB,G,G,Nghiên cứu
+Lê Thị Thùy Linh,Nữ,G,G,K,G,K,G,G,K,G,G,Nghiên cứu
+Nguyễn Hải Linh,Nữ,G,G,G,G,K,K,G,K,G,G,Nghiên cứu
+Nguyễn Hữu Linh,Nam,G,G,K,K,TB,K,G,G,G,G,Nghiên cứu
+Trần Thị Khánh Linh,Nữ,G,G,K,K,K,K,G,K,G,G,Nghiên cứu
+Lê Thị Hiền Lương,Nữ,G,G,K,K,K,K,G,G,G,G,Nghiên cứu
+Nguyễn Thị Hải Ly,Nữ,G,G,K,G,G,G,G,K,G,G,Nghiên cứu
+Nguyễn Thị Thu Mai,Nữ,G,G,G,K,K,G,G,K,G,G,Nghiên cứu
+Nguyễn Trà Mi,Nữ,G,G,G,G,G,K,G,K,G,G,Nghiên cứu
+Kim Ngọc Minh,Nam,G,G,K,K,K,K,G,K,G,G,Nghiên cứu
+Đinh Thị Hà My,Nữ,G,G,G,K,K,K,G,K,G,G,Nghiên cứu
+Nguyễn Bích Ngọc,Nữ,G,G,G,G,K,G,G,G,G,G,Nghiên cứu
+Nguyễn Thị Bích Ngọc,Nữ,G,G,G,G,G,G,G,G,G,G,Nghiên cứu
+Nguyễn Hoài Phương,Nữ,G,G,G,G,K,G,G,K,G,G,Nghiên cứu
+Nguyễn Văn Quang,Nam,G,G,G,K,TB,K,G,TB,G,G,Nghiên cứu
+Trịnh Anh Quân,Nam,G,G,G,G,K,K,G,G,G,G,Nghiên cứu
+Đàm Thị Như Quỳnh,Nữ,G,G,G,K,K,K,G,K,G,G,Nghiên cứu
+Kim Ngọc Sơn,Nam,G,G,G,G,K,G,G,G,G,G,Nghiên cứu
+Lê Anh Sơn,Nam,G,G,G,K,TB,G,G,TB,G,G,Nghiên cứu
+Mai Danh Tấn,Nam,G,G,G,K,TB,K,G,TB,G,G,Nghiên cứu
+Lê Phương Thảo,Nữ,G,G,G,G,K,G,G,K,G,G,Nghiên cứu
+Nguyễn Thị Minh Thảo,Nữ,G,G,G,G,G,G,G,G,G,G,Nghiên cứu
+Bùi Đức Thọ,Nam,G,G,K,K,TB,K,G,K,G,G,Nghiệp vụ
+Đặng Văn Toàn,Nam,G,G,G,G,K,K,G,K,G,G,Nghiên cứu
+Nguyễn Ngọc Toàn,Nam,G,G,G,G,TB,G,G,K,G,G,Nghiên cứu
+Lê Thùy Trang,Nữ,G,G,G,K,K,G,G,K,G,G,Nghiên cứu
+Ngô Thị Ngọc Trinh,Nữ,G,G,K,G,G,K,G,G,G,G,Nghiên cứu
+Trần Xuân Trường,Nam,G,G,G,K,TB,K,G,Y,G,G,Nghiên cứu
+Lê Mạnh Tú,Nam,G,G,G,K,TB,G,G,TB,G,G,Nghiên cứu
+Lê Minh Tường,Nam,G,G,G,K,TB,K,G,TB,G,G,Nghiên cứu
+Phạm Đỗ Diệu Anh,Nữ,G,G,K,G,K,K,G,G,G,G,Nghiên cứu
+Trần Quốc Chính,Nam,G,G,K,K,K,K,G,G,G,G,Nghiên cứu
+Vũ Việt Dũng,Nam,G,G,G,G,K,K,G,G,G,G,Nghiên cứu
+Lê Đình Duy,Nam,G,G,G,G,K,G,G,K,G,G,Nghiên cứu
+Trần Đức Duy,Nam,G,G,G,G,K,K,G,G,G,G,Nghiên cứu
+Nguyễn Thị Ánh Dương,Nữ,G,G,G,G,K,K,G,G,G,G,Nghiên cứu
+Nguyễn Minh Đức,Nam,G,G,G,G,K,K,G,G,G,G,Nghiên cứu
+Trần Văn Đức,Nam,G,K,K,G,K,G,G,G,G,G,Nghiên cứu
+Nguyễn Trường Giang,Nam,G,G,G,G,K,K,K,G,G,G,Nghiên cứu
+Trần Văn Hào,Nam,G,G,K,G,K,K,G,K,G,G,Nghiên cứu
+Trần Quang Hiển,Nam,G,G,K,G,K,K,G,G,G,G,Nghiệp vụ
+Nguyễn Ngọc Huyền,Nữ,G,G,G,G,K,G,G,G,G,G,Nghiên cứu
+Mai Thị Tân Hương,Nữ,G,G,G,G,G,K,G,G,G,G,Nghiên cứu
+Đinh Văn Khải,Nam,G,G,G,G,K,K,K,G,G,G,Nghiên cứu
+Nguyễn Thị Khanh,Nữ,G,G,G,G,K,K,G,G,G,G,Nghiên cứu
+Đỗ Duy Khánh,Nam,G,G,G,G,K,K,G,G,G,G,Nghiên cứu
+Trần Thị Ngọc Lan,Nữ,G,K,K,G,K,K,G,G,G,G,Kỹ thuật
+Nguyễn Thị Hồng Liên,Nữ,G,G,K,G,K,K,G,G,G,G,Nghiên cứu
+Trần Thị Hồng Liên,Nữ,G,G,G,G,K,K,G,G,G,G,Nghiên cứu
+Bùi Thùy Linh,Nữ,G,G,K,G,K,K,G,G,G,G,Nghiên cứu
+Hoàng Vân Linh,Nữ,G,G,K,G,G,G,G,G,G,G,Nghiên cứu
+Nguyễn Thị Thùy Linh,Nữ,G,G,G,G,K,K,G,G,G,G,Nghiên cứu
+Nguyễn Thị Khánh Ly,Nữ,G,G,G,G,K,K,K,G,G,G,Nghiên cứu
+Nguyễn Thị Ngọc Mai,Nữ,G,G,K,G,K,G,G,G,G,G,Nghiên cứu
+Nguyễn Thị Trà My,Nữ,G,G,G,G,K,K,G,G,G,G,Nghiên cứu
+Nguyễn Bảo Ngọc,Nữ,K,G,K,G,K,K,G,G,G,G,Nghiên cứu
+Nguyễn Hữu Quốc Phú,Nam,G,G,G,G,K,K,K,K,G,G,Nghiên cứu
+Vũ Như Phương,Nữ,G,G,G,G,K,K,G,G,G,G,Nghiên cứu
+Ngô Văn Quyết,Nam,G,G,G,G,K,K,K,G,G,G,Nghiên cứu
+Lê Văn Song,Nam,G,G,G,G,K,G,G,G,G,G,Nghiên cứu
+Nguyễn Thượng Tài,Nam,G,G,G,K,K,K,K,G,G,G,Nghiên cứu
+Mai Thị Minh Tâm,Nữ,G,G,G,G,K,K,G,G,G,G,Nghiên cứu
+Ngô Trần Đức Thái,Nam,G,G,G,G,K,K,G,G,G,G,Nghiên cứu
+Bùi Thị Thanh,Nữ,G,G,G,G,G,K,G,G,G,G,Nghiên cứu
+Lê Thị Phương Thảo,Nữ,G,G,G,G,K,K,G,G,G,G,Nghiên cứu
+Trần Thị Thảo,Nữ,G,G,G,G,K,K,G,G,G,G,Nghiên cứu
+Nguyễn Hữu Thi,Nam,G,G,K,G,K,K,G,G,G,G,Nghiên cứu
+Kim Anh Thư,Nữ,G,K,K,G,G,G,G,G,G,G,Kỹ thuật
+Nguyễn Văn Tiến,Nam,G,K,G,G,K,K,G,K,G,G,Nghiên cứu
+Nguyễn Khắc Phong Toàn,Nam,G,G,G,G,K,K,G,G,G,G,Nghiên cứu
+Bùi Mai Thu Trang,Nữ,G,K,K,G,G,K,G,G,G,G,Kỹ thuật
+Nguyễn Thùy Trang,Nữ,G,G,K,G,K,G,G,G,G,G,Nghiên cứu
+Nguyễn Đức Trọng,Nam,G,G,G,G,K,K,G,G,G,G,Nghiên cứu
+Nguyễn Văn Tuấn,Nam,G,G,G,G,K,K,G,G,G,G,Nghiên cứu
+Nguyễn Thị Thu Vân,Nữ,G,G,K,G,K,K,G,G,G,G,Nghiên cứu
+Nguyễn Đình Vinh,Nam,G,K,K,G,K,K,G,G,G,G,Nghiệp vụ
+Trần Duy Anh,Nam,G,K,K,G,K,K,K,TB,G,G,Nghiệp vụ
+Nguyễn Đình Cảnh,Nam,G,G,G,G,K,K,G,K,G,G,Nghiên cứu
+Bùi Thị Chi,Nữ,G,G,G,G,K,G,G,K,G,G,Nghiên cứu
+Phạm Linh Chi,Nữ,G,G,G,G,G,G,G,K,G,G,Nghiên cứu
+Bạch Thị Cúc,Nữ,G,G,G,G,G,G,G,K,G,G,Nghiên cứu
+Lê Đình Khánh Duy,Nam,K,K,TB,G,K,K,K,K,G,G,Nghiệp vụ
+Lê Ðức Duy,Nam,G,G,K,G,K,K,G,K,G,G,Nghiên cứu
+Nguyễn Thị Thùy Dương,Nữ,G,G,G,G,K,K,G,K,G,G,Nghiên cứu
+Nguyễn Thành Đạt,Nam,G,K,K,G,K,K,G,K,G,G,Kỹ thuật
+Nguyễn Hữu Đồng,Nam,K,G,K,G,K,K,G,K,G,G,Nghiên cứu
+Đào Minh Đức,Nam,G,G,G,G,K,G,G,K,G,G,Nghiên cứu
+Trịnh Thanh Hải,Nam,G,G,K,K,K,K,G,K,G,G,Nghiên cứu
+Nguyễn Ngọc Hòa,Nam,G,K,K,G,K,K,G,TB,G,G,Nghiệp vụ
+Nguyễn Thị Huệ,Nữ,G,G,G,G,G,K,G,K,G,G,Nghiên cứu
+Nguyễn Thị Huệ,Nữ,G,G,G,G,K,G,G,K,G,G,Nghiên cứu
+Nguyễn Quang Huy,Nam,G,G,G,G,K,K,G,K,G,G,Nghiên cứu
+Trịnh Quốc Huy,Nam,G,G,G,G,K,K,G,K,G,G,Nghiên cứu
+Đinh Thị Thanh Huyền,Nữ,G,G,G,G,G,K,G,K,G,G,Nghiên cứu
+Nguyễn Thu Huyền,Nữ,G,G,G,G,G,G,G,K,G,G,Nghiên cứu
+Nguyễn Thu Huyền,Nữ,G,G,G,G,G,G,G,K,G,G,Nghiên cứu
+Vũ Thị Thu Huyền,Nữ,G,G,K,G,G,G,G,K,G,G,Nghiên cứu
+Bạch Quốc Khánh,Nam,G,G,K,G,K,K,G,K,G,G,Nghiên cứu
+Nguyễn Thị Liên,Nữ,G,G,G,G,K,K,G,K,G,G,Nghiên cứu
+Nguyễn Trúc Linh,Nữ,G,G,K,G,G,K,G,K,G,G,Nghiên cứu
+Trần Phúc Lộc,Nam,G,K,TB,K,G,K,G,K,G,G,Xã hội
+Trần Văn Lương,Nam,G,G,K,G,K,K,G,K,G,G,Nghiên cứu
+Nguyễn Thị Lý,Nữ,G,G,G,G,G,K,G,K,G,G,Nghiên cứu
+Nguyễn Bá Mạnh,Nam,K,G,K,G,K,K,G,K,G,G,Nghiệp vụ
+Nguyễn Tiến Mạnh,Nam,G,G,K,G,K,K,G,K,G,G,Nghiên cứu
+Đinh Nhật Minh,Nữ,G,G,G,G,K,K,G,G,G,G,Nghiên cứu
+Trần Thị Nhàn,Nữ,K,K,K,G,K,G,G,K,G,G,Xã hội
+Trịnh Tấn Phát,Nam,G,K,K,G,G,K,G,K,G,G,Kỹ thuật
+Đinh Thị Mai Phương,Nữ,G,G,K,G,G,K,G,G,G,G,Nghiên cứu
+Nguyễn Thị Quyên,Nữ,G,G,G,G,G,G,G,K,G,G,Nghiên cứu
+Trần Văn Thành,Nam,G,G,K,G,K,K,G,K,G,G,Nghiệp vụ
+Nguyễn Thị Thu Thảo,Nữ,G,G,K,G,G,K,G,K,G,G,Nghiên cứu
+Nguyễn Thị Xuân Thu,Nữ,G,G,K,G,G,K,G,G,G,G,Nghiên cứu
+Dư Thùy Thương,Nữ,G,G,K,G,G,K,G,K,G,G,Kỹ thuật
+Dương Anh Tuấn,Nam,G,G,G,G,K,K,G,K,G,G,Nghiên cứu
+Nguyễn Hữu Tuấn,Nam,G,G,G,G,K,K,G,K,G,G,Nghiên cứu
+Trịnh Thị Tố Uyên,Nữ,G,G,G,G,G,G,G,K,G,G,Nghiên cứu
+Phùng Thị Tường Vân,Nữ,G,G,K,G,G,G,G,K,G,G,Xã hội
+Lê Đình Vinh,Nam,G,G,G,G,K,G,G,K,G,G,Nghiên cứu
+Ðặng Hoàng Vũ,Nam,G,K,G,K,K,K,K,K,G,G,Nghiên cứu
+Lê Tuấn Vũ,Nam,K,G,K,G,K,K,G,K,G,G,Nghiệp vụ
+Nguyễn Thị Hải Yến,Nữ,G,G,K,G,K,K,G,G,G,G,Nghiên cứu
+Nguyễn Việt Anh,Nam,G,G,K,G,K,K,G,G,G,K,Nghiên cứu
+Bùi Trung Chiến,Nam,G,G,G,K,K,G,K,G,K,G,Nghiên cứu
+Kim Ngọc Chính,Nam,G,G,G,G,K,K,G,G,G,K,Nghiên cứu
+Bùi Thị Dung,Nữ,G,G,K,K,K,G,K,G,G,K,Nghiên cứu
+Lê Văn Duy,Nam,G,G,G,G,K,K,G,G,G,K,Nghiên cứu
+Bùi Thị Duyên,Nữ,G,G,G,G,K,K,G,G,G,G,Nghiên cứu
+Nguyễn Hà Giang,Nữ,G,G,K,G,G,K,K,G,K,G,Kinh doanh
+Bùi Thị Hà,Nữ,G,G,G,G,K,G,G,G,K,K,Nghiên cứu
+Đinh Thị Hồng Hạnh,Nữ,G,G,G,K,K,G,G,G,G,G,Nghiên cứu
+Ngô Thị Thúy Hằng,Nữ,G,G,G,K,K,G,G,G,G,G,Nghiên cứu
+Trịnh Xuân Hiếu,Nam,G,G,G,G,K,K,K,K,G,K,Nghiên cứu
+Đinh Thị Huyền,Nữ,G,G,G,G,K,G,G,G,G,K,Nghiên cứu
+Mai Thị Thu Huyền,Nữ,G,G,G,G,G,K,G,G,G,K,Nghiên cứu
+Nguyễn Mai Hương,Nữ,G,G,G,G,G,K,G,G,G,G,Nghiên cứu
+Vũ Thị Hường,Nữ,G,G,G,G,G,G,G,G,G,G,Nghiên cứu
+Trần Phương Khanh,Nữ,G,G,G,G,K,G,G,G,K,G,Nghiên cứu
+Bùi Văn Quốc Khánh,Nam,G,G,G,K,TB,K,K,K,G,K,Nghiên cứu
+Đặng Đình Kiến,Nam,G,G,G,G,K,K,K,K,K,K,Nghiên cứu
+Triệu Thị Thúy Lan,Nữ,G,G,K,K,G,K,K,G,G,K,Kinh doanh
+Nguyễn Tiến Lâm,Nam,G,G,K,G,K,K,K,K,G,G,Nghiên cứu
+Dương Văn Minh,Nam,G,G,K,G,K,K,K,G,G,K,Nghiên cứu
+Hoàng Thị Hằng Nga,Nữ,G,G,G,G,G,K,G,G,G,G,Nghiên cứu
+Lê Thị Kim Ngoan,Nữ,G,G,G,K,K,K,G,G,G,G,Nghiên cứu
+Nguyễn Thị Ánh Nguyệt,Nữ,G,G,G,K,K,K,K,G,G,G,Nghiên cứu
+Nguyễn Quang Phát,Nam,G,G,G,G,K,G,K,G,G,K,Nghiên cứu
+Lê Mai Phương,Nữ,G,G,K,K,K,K,G,G,G,G,Nghiên cứu
+Lê Thu Phương,Nữ,G,G,G,G,K,G,K,G,G,K,Nghiên cứu
+Kim Ngọc Quý,Nam,G,G,K,K,K,K,K,G,G,G,Nghiên cứu
+Phùng Thị Mỹ Tâm,Nữ,G,G,G,G,K,K,G,G,G,G,Nghiên cứu
+Nguyễn Phương Thanh,Nữ,G,G,G,G,K,K,G,K,G,K,Nghiên cứu
+Nguyễn Thị Mỹ Thảo,Nữ,G,G,G,G,K,G,K,G,G,K,Nghiên cứu
+Trần Thị Thùy,Nữ,G,G,G,G,K,K,G,G,G,G,Nghiên cứu
+Đinh Xuân Trọng,Nam,G,G,G,G,K,G,G,G,G,G,Nghiên cứu
+Nguyễn Công Tuấn,Nam,G,G,K,K,K,K,K,K,K,K,Nghiên cứu
+Đinh Văn Tuyên,Nam,G,G,K,K,K,G,K,K,G,K,Nghiệp vụ
+Lê Thị Thu Uyên,Nữ,G,G,K,G,G,G,G,G,G,G,Xã hội
+Trịnh Thị Uyên,Nữ,G,G,K,G,G,K,K,G,G,G,Nghiên cứu
+Nguyễn Thị Xuân,Nữ,G,G,G,G,K,K,G,G,G,G,Nghiên cứu
+Nguyễn Thị Phụng Anh,Nữ,G,G,K,G,G,K,G,G,G,K,Xã hội
+Nguyễn Thị Vân Anh,Nữ,G,G,G,K,K,K,G,G,K,K,Nghiên cứu
+Phạm Thị Lan Anh,Nữ,G,G,K,K,G,G,G,G,G,G,Nghiên cứu
+Nguyễn Hữu Bảo,Nam,G,G,G,K,K,K,G,K,K,K,Nghiên cứu
+Bùi Minh Chiến,Nam,K,G,K,K,K,K,G,K,K,K,Nghiệp vụ
+Ðoàn Minh Chiến,Nam,K,G,K,K,K,G,G,K,K,K,Nghiệp vụ
+Ðỗ Thành Công,Nam,G,G,G,K,K,K,G,K,K,K,Nghiên cứu
+Trần Hiền Dịu,Nữ,G,G,K,K,G,K,G,K,G,G,Xã hội
+Nguyễn Ðức Doanh,Nam,K,K,K,K,K,K,K,G,K,K,Nghiệp vụ
+Nguyễn Minh Duy,Nam,K,K,K,K,K,K,K,K,K,K,Nghiệp vụ
+Đinh Tiến Đại,Nam,TB,K,K,K,K,K,K,K,K,K,Nghiệp vụ
+Đỗ Tiến Đạt,Nam,K,K,K,K,K,K,K,K,K,K,Nghiệp vụ
+Vũ Thị Thu Hà,Nữ,K,G,K,K,K,G,G,K,G,K,Xã hội
+Lê Minh Hiếu,Nam,K,K,K,K,K,K,K,K,K,K,Nghiệp vụ
+Hoàng Thị Hoa,Nữ,K,G,G,K,K,K,G,K,K,K,Nghiên cứu
+Bùi Đức Huy,Nam,K,K,K,K,K,K,G,K,G,K,Nghiệp vụ
+Đinh Thị Thu Huyền,Nữ,G,G,K,K,K,G,G,G,G,G,Nghiên cứu
+Nguyễn Thị Hương,Nữ,G,G,K,K,G,K,G,G,G,G,Nghiên cứu
+Nguyễn Thị Minh Khai,Nữ,K,G,K,K,K,K,G,K,G,K,Nghiệp vụ
+Vũ Quang Kiên,Nam,K,G,G,K,K,K,G,K,K,K,Nghiên cứu
+Kim Thị Ngọc Linh,Nữ,K,G,K,K,K,K,G,G,K,K,Nghiệp vụ
+Đinh Thị Lưu,Nữ,G,G,G,K,G,K,G,K,K,K,Nghiên cứu
+Nguyễn Đỗ Phượng Mai,Nữ,G,G,K,K,K,K,G,G,K,K,Nghiên cứu
+Đinh Anh Minh,Nam,G,G,K,K,K,K,K,G,K,K,Nghiên cứu
+Hà Thị Thanh Nga,Nữ,K,G,G,K,K,K,G,K,K,K,Nghiên cứu
+Trần Trung Nghĩa,Nam,K,K,K,K,K,K,K,G,K,K,Nghiệp vụ
+Đinh Trung Nguyên,Nam,K,K,K,K,K,K,K,K,K,K,Nghiệp vụ
+Ðặng Thành Nhân,Nam,K,K,K,K,K,K,G,K,G,K,Nghiệp vụ
+Nguyễn Thị Hồng Nhung,Nữ,G,K,K,K,G,K,G,G,K,K,Nghiên cứu
+Nguyễn Thị Hồng nhung,Nữ,G,G,K,K,K,G,G,G,G,K,Nghiên cứu
+Nguyễn Văn Quyền,Nam,G,K,K,K,K,K,G,K,G,K,Nghiệp vụ
+Nguyễn Thị Như Quỳnh,Nữ,K,G,G,K,K,K,G,K,G,K,Nghiên cứu
+Ðặng Ðình Thái,Nam,K,G,G,G,K,G,G,K,G,K,Nghiên cứu
+Trần Minh Thành,Nam,G,G,G,K,K,K,K,G,K,K,Nghiên cứu
+Trương Văn Thành,Nam,G,K,K,K,K,K,K,K,K,K,Nghiệp vụ
+Hoàng Văn Thắng,Nam,G,G,G,K,K,K,K,K,K,K,Nghiên cứu
+Nguyễn Thu Thủy,Nữ,G,K,K,K,G,G,G,G,G,G,Xã hội
+Nguyễn Thị Kim Thúy,Nữ,G,K,K,G,K,K,G,G,K,K,Kinh doanh
+Phạm Minh Thư,Nữ,G,K,K,K,G,K,G,G,G,K,Nghiên cứu
+Nguyễn Phương Trang,Nữ,K,G,K,K,G,K,G,G,G,G,Kinh doanh
+Nguyễn Thị Tươi,Nữ,G,G,K,K,K,K,G,K,G,K,Nghiệp vụ
+Phạm Tiến Vũ,Nam,G,G,K,K,K,K,G,G,G,K,Nghiệp vụ
+Nguyễn Thị Bảo Yến,Nữ,G,G,G,G,K,K,G,K,G,K,Nghiên cứu
+Trần Thị Yến,Nữ,G,G,K,G,G,G,G,K,K,G,Xã hội
+Bùi Việt Anh,Nam,K,K,K,K,K,K,K,TB,K,G,Nghiệp vụ
+Đinh Lan Anh,Nữ,G,K,K,K,G,K,G,G,K,G,Kinh doanh
+Trần Đức Anh,Nam,G,G,G,K,K,K,G,K,G,K,Nghiên cứu
+Trần Thị Châm Anh,Nữ,G,G,G,K,K,K,G,K,K,G,Nghiên cứu
+Nguyễn Ngọc Ánh,Nữ,G,K,G,K,G,K,G,K,K,K,Xã hội
+Nghiêm Mạnh Bình,Nam,G,G,G,K,K,K,K,K,K,G,Nghiên cứu
+Nguyễn Thanh Bình,Nam,G,K,K,K,G,K,K,K,K,G,Nghiệp vụ
+Đỗ Tiến Dũng,Nam,G,G,G,K,K,K,K,K,K,K,Nghiên cứu
+Nguyễn Đức Duy,Nam,K,K,K,K,K,K,K,TB,K,K,Nghiệp vụ
+Nguyễn Hữu Đạt,Nam,K,K,K,K,K,K,G,K,K,K,Nghiệp vụ
+Nguyễn Văn Đức,Nam,G,G,G,K,K,K,K,TB,K,K,Nghiên cứu
+Nguyễn Thu Giang,Nữ,G,G,G,G,G,G,G,K,G,G,Nghiên cứu
+Nguyễn Thị Thu Hà,Nữ,G,K,K,K,K,K,G,TB,K,K,Nghiệp vụ
+Nguyễn Thu Hà,Nữ,K,G,K,K,G,K,G,K,K,K,Xã hội
+Vũ Thị Thu Hà,Nữ,G,K,K,K,K,K,K,TB,K,G,Nghiệp vụ
+Ngô Thị Hải,Nữ,G,G,G,K,K,K,G,K,K,K,Nghiên cứu
+Bùi Minh Hiếu,Nam,G,G,G,K,K,K,G,TB,K,G,Nghiên cứu
+Nguyễn Văn Hiếu,Nam,K,K,K,K,K,K,G,TB,G,K,Nghiệp vụ
+Đàm Thị Hoa,Nữ,G,K,G,K,G,K,K,K,K,G,Nghiệp vụ
+Trần Thị Thu Hoài,Nữ,G,G,G,G,K,K,G,G,K,G,Nghiên cứu
+Đặng Thị Ánh Hồng,Nữ,G,G,G,G,K,K,K,TB,K,K,Nghiên cứu
+Nguyễn Thế Huân,Nam,K,G,K,K,K,K,K,TB,K,K,Nghiệp vụ
+Trần Văn Huân,Nam,TB,K,K,K,K,K,K,K,K,K,Nghiệp vụ
+Nguyễn Thu Huyền,Nữ,K,K,K,K,K,K,G,TB,G,G,Nghiệp vụ
+Trương Thị Huyền,Nữ,G,G,G,K,K,K,K,TB,K,K,Nghiên cứu
+Bùi Đức Khải,Nam,K,K,K,TB,TB,TB,K,TB,K,K,Nghiệp vụ
+Trần Công Khanh,Nam,K,K,K,K,K,K,G,K,K,G,Nghiệp vụ
+Nguyễn Thị Hương Lan,Nữ,K,K,K,K,K,K,G,K,K,G,Nghiệp vụ
+Đặng Phương Mai,Nữ,K,K,K,K,G,G,G,G,K,G,Xã hội
+Phạm Duy Nghĩa,Nam,K,G,K,K,K,K,K,K,G,G,Nghiệp vụ
+Nguyễn Văn Ngọc,Nam,K,K,K,K,K,K,K,TB,K,G,Nghiệp vụ
+Trịnh Thùy Như,Nữ,G,G,K,K,G,K,G,K,K,G,Xã hội
+Nguyễn Xuân Phong,Nam,K,K,K,K,K,K,G,TB,K,K,Nghiệp vụ
+Trịnh Thị Thu Phương,Nữ,K,K,K,K,K,K,G,K,K,G,Nghiệp vụ
+Bùi Việt Quang,Nam,G,K,K,K,K,K,Y,K,K,K,Nghiệp vụ
+Nguyễn Minh Quang,Nam,G,G,G,K,K,K,G,K,G,K,Nghiên cứu
+Đinh Thị Ngọc Quyên,Nữ,G,G,G,G,K,K,G,K,G,G,Nghiên cứu
+Nguyễn Mạnh Sinh,Nam,K,K,K,K,K,K,K,K,K,K,Nghiệp vụ
+Đinh Văn Sơn,Nam,K,K,K,K,K,K,K,K,K,G,Nghiệp vụ
+Đinh Trọng Tấn,Nam,K,K,K,K,K,K,K,K,K,G,Nghiệp vụ
+Vũ Dương Biền,Nam,K,K,K,K,TB,K,G,G,K,K,Nghiệp vụ
+Nguyễn Văn Bình,Nam,G,G,K,K,TB,K,K,K,K,K,Nghiệp vụ
+Nguyễn Thị Linh Chi,Nữ,K,K,K,K,K,K,G,K,G,G,Nghiệp vụ
+Hoàng Khánh Duy,Nam,K,K,K,K,K,K,G,K,G,G,Nghiệp vụ
+Nguyễn Văn Duy,Nam,K,K,K,K,TB,K,K,K,K,K,Nghiệp vụ
+Đỗ Tiến Đạo,Nam,TB,K,K,K,TB,K,K,K,K,K,Nghiệp vụ
+Nguyễn Hoàng Hà,Nam,K,K,K,K,TB,K,K,K,K,K,Nghiệp vụ
+Nguyễn Thị Hạnh,Nữ,G,G,G,G,K,K,G,K,K,G,Nghiên cứu
+Bùi Phúc Hậu,Nam,G,K,K,G,K,K,G,K,G,G,Nghiệp vụ
+Phùng Thị Hải Hậu,Nữ,K,K,K,K,K,K,G,K,K,G,Nghiệp vụ
+Lê Tôn Hiệp,Nam,K,K,K,K,TB,K,K,K,G,K,Nghiệp vụ
+Trần Xuân Hiếu,Nam,K,G,K,G,TB,K,K,K,K,K,Nghiệp vụ
+Vũ Minh Hoàng,Nam,K,K,K,K,TB,K,K,K,K,K,Nghiệp vụ
+Trần Văn Hợp,Nam,TB,K,K,K,TB,TB,K,K,K,K,Nghiệp vụ
+Đinh Thị Khánh Huyền,Nữ,G,K,K,K,K,K,G,G,K,G,Nghiên cứu
+Nguyễn Thùy Hương,Nữ,G,G,G,K,K,K,G,K,K,G,Nghiên cứu
+Nguyễn Bá Khánh,Nam,K,K,K,K,TB,K,K,K,K,K,Nghiệp vụ
+Trần Xuân Khánh,Nam,G,K,K,K,K,K,G,K,K,G,Nghiệp vụ
+Trịnh Bảo Khánh,Nam,K,G,K,K,K,K,K,K,G,K,Nghiệp vụ
+Nguyễn Viết Lộc,Nam,K,K,K,K,TB,K,K,K,K,G,Nghiệp vụ
+Trương Văn Lộc,Nam,K,K,K,K,TB,K,G,K,K,K,Nghiệp vụ
+Nguyễn Thị Nga,Nữ,G,G,G,K,K,K,G,G,G,G,Nghiên cứu
+Văn Trọng Phong,Nam,K,K,K,K,TB,K,G,K,K,G,Nghiệp vụ
+Phùng Văn Phương,Nam,K,K,K,K,K,K,K,K,K,G,Nghiệp vụ
+Cao Xuân Quang,Nam,K,K,K,K,TB,K,K,K,K,K,Nghiệp vụ
+Nguyễn Minh Quang,Nam,K,K,K,K,TB,K,K,K,K,K,Nghiệp vụ
+Trần Ngọc Quân,Nam,K,K,K,K,K,K,K,K,K,G,Nghiệp vụ
+Nguyễn Thị Quỳnh,Nữ,K,K,K,K,K,K,K,G,K,G,Nghiệp vụ
+Lê Ngọc Sơn,Nam,K,K,K,K,TB,K,G,K,K,K,Nghiệp vụ
+Ngô Hoàng Sơn,Nam,TB,K,K,K,K,K,K,K,K,K,Nghiệp vụ
+Nguyễn Hữu Ngọc Sơn,Nam,G,G,G,G,K,K,G,K,G,G,Nghiên cứu
+Nguyễn Thị Thanh,Nữ,K,K,K,K,TB,K,K,K,G,K,Nghiệp vụ
+Nguyễn Phương Thuỳ,Nữ,K,K,K,K,K,K,G,K,K,K,Nghiệp vụ
+Bùi Thị Lệ Thuỷ,Nữ,G,G,G,G,K,K,G,K,K,G,Nghiên cứu
+Nguyễn Thị Mai Thương,Nữ,K,K,K,K,K,K,G,K,K,G,Nghiệp vụ
+Đào Thị Huyền Trang,Nữ,K,K,K,K,K,K,G,G,G,K,Nghiệp vụ
+Nguyễn Thu Trang,Nữ,K,K,K,K,K,K,K,K,K,K,Nghiệp vụ
+Nguyễn Văn Tuấn,Nam,K,K,K,K,K,K,K,K,K,G,Nghiệp vụ
+Đỗ Thu Uyên,Nữ,K,K,K,K,K,K,G,K,K,G,Nghiệp vụ
+Nguyễn Quốc Việt,Nam,K,K,K,K,TB,K,K,K,K,G,Nghiệp vụ
+Phùng Thị Hải Yến,Nữ,K,K,K,K,K,K,K,K,G,G,Nghiệp vụ
+Nguyễn Đức Anh,Nam,K,K,K,K,K,K,G,TB,G,K,Nghiệp vụ
+Nguyễn Đình Chiến,Nam,K,K,K,K,K,K,G,TB,K,G,Nghiệp vụ
+Phạm Đức Chính,Nam,G,K,G,G,K,K,G,K,G,G,Nghiên cứu
+Nguyễn Trí Công,Nam,K,K,K,K,K,K,G,TB,K,K,Nghiệp vụ
+Phạm Quang Công,Nam,K,K,K,K,K,K,G,TB,K,G,Nghiệp vụ
+Nguyễn Xuân Đạt,Nam,K,K,K,G,K,G,G,TB,K,G,Nghiệp vụ
+Trần Thị Hà,Nữ,G,G,G,G,G,K,G,K,G,G,Nghiên cứu
+Đinh Văn Hải,Nam,K,K,K,K,K,G,G,K,G,G,Xã hội
+Đào Thị Thu Hiếu,Nữ,G,K,K,K,G,K,G,TB,K,G,Nghiệp vụ
+Lê Ngọc Hiếu,Nam,K,K,K,K,K,K,K,TB,G,G,Nghiệp vụ
+Vũ Bá Hùng,Nam,K,K,K,K,K,K,G,TB,K,G,Nghiệp vụ
+Nguyễn Thị Huyền,Nữ,K,K,K,K,G,K,G,K,K,G,Nghiệp vụ
+Lê Thị Thu Hường,Nữ,K,K,K,K,G,G,G,TB,G,G,Xã hội
+Hoàng Tuấn Kiệt,Nam,K,K,K,K,K,K,G,TB,K,K,Nghiệp vụ
+Bùi Thị Mỹ Linh,Nữ,G,K,K,K,G,G,K,K,G,G,Nghiên cứu
+Đinh Thị Linh,Nữ,K,K,K,K,K,K,G,TB,K,G,Nghiệp vụ
+Hoàng Thị Thùy Linh,Nữ,G,K,K,K,G,K,K,K,G,G,Xã hội
+Nguyễn Thị Bích Loan,Nữ,G,K,K,G,G,K,G,K,K,G,Kỹ thuật
+Trần Thị Trà My,Nữ,K,K,K,K,K,K,G,TB,G,K,Xã hội
+Hồ Phương Nam,Nam,K,K,K,K,K,K,G,TB,G,G,Nghiệp vụ
+Hoàng Thị Phương Nga,Nữ,K,G,G,G,G,K,G,TB,G,G,Nghiên cứu
+Phạm Thị Ngân,Nữ,K,K,K,K,K,K,G,TB,G,G,Nghiệp vụ
+Nguyễn Đình Nghĩa,Nam,G,K,K,K,K,K,G,TB,K,K,Nghiệp vụ
+Nguyễn Hữu Nghĩa,Nam,K,K,K,K,K,K,K,TB,K,K,Nghiệp vụ
+Nguyễn Như Ngọc,Nữ,G,G,G,G,G,K,G,TB,G,G,Nghiên cứu
+Bùi Trang Nhung,Nữ,K,K,K,K,G,K,G,K,G,G,Xã hội
+Ngô Văn Phúc,Nam,G,K,K,K,K,K,G,TB,K,K,Nghiệp vụ
+Nguyễn Trung Soái,Nam,K,K,K,K,K,K,G,TB,K,G,Nghiệp vụ
+Bạch Thanh Sơn,Nam,K,K,K,K,K,K,G,TB,G,K,Nghiệp vụ
+Nguyễn Thị Phương Thanh,Nữ,G,K,K,K,G,G,G,K,G,G,Xã hội
+Nguyễn Đức Thành,Nam,G,K,K,K,K,K,G,TB,K,K,Nghiệp vụ
+Lê Văn Thắng,Nam,G,K,K,K,G,K,G,K,K,G,Xã hội
+Mai Thị Thoan,Nữ,K,K,K,K,G,K,G,TB,G,K,Nghiệp vụ
+Trần Công Tiến,Nam,K,K,K,K,K,K,K,TB,K,G,Nghiệp vụ
+Nguyễn Hữu Trang,Nam,G,K,K,K,K,K,G,K,K,G,Nghiệp vụ
+Nguyễn Thị Thu Trang,Nữ,G,K,K,K,G,K,G,K,G,G,Nghiệp vụ
+Lê Duy Trình,Nam,K,K,K,K,K,K,G,TB,K,K,Nghiệp vụ
+Nguyễn Trí Trung,Nam,K,K,K,K,K,K,K,TB,K,K,Nghiệp vụ
+Nguyễn Mạnh Tuấn,Nam,K,K,K,K,K,K,G,TB,G,G,Nghiệp vụ
+Đinh Xuân Tuyên,Nam,G,K,G,K,K,K,G,TB,K,G,Nghiên cứu
+Nguyễn Hà Vi,Nữ,G,K,K,G,G,K,G,K,G,G,Kỹ thuật
+Lê Tuấn Anh,Nam,K,K,K,TB,K,K,K,TB,K,K,Nghiệp vụ
+Nguyễn Đức Tuấn Anh,Nam,G,G,K,K,K,K,G,K,K,K,Nghiệp vụ
+Phạm Thị Thanh Anh,Nữ,K,K,K,K,K,K,G,K,K,K,Xã hội
+Vũ Ngọc Ánh,Nữ,K,K,K,K,K,K,G,TB,K,K,Nghiệp vụ
+Vũ Thị Châm,Nữ,G,G,K,K,K,K,G,K,G,G,Nghiên cứu
+Vũ Kim Chi,Nữ,K,K,K,K,K,G,G,TB,K,K,Nghiệp vụ
+Vũ Thị Lệ Chi,Nữ,K,K,K,TB,K,K,G,TB,G,K,Nghiệp vụ
+Nguyễn Văn Cường,Nam,G,G,K,K,K,K,G,K,G,K,Nghiệp vụ
+Lã Văn Dũng,Nam,K,K,K,K,K,K,G,K,G,K,Nghiệp vụ
+Nguyễn Văn Dũng,Nam,G,G,K,TB,K,G,G,K,G,K,Nghiệp vụ
+Trần Đức Duy,Nam,K,K,K,K,K,K,G,K,K,K,Nghiệp vụ
+Nguyễn Văn Đà,Nam,TB,K,K,TB,TB,K,G,TB,K,K,Nghiệp vụ
+Phùng Văn Giang,Nam,G,G,K,K,K,K,G,K,G,K,Nghiên cứu
+Phan Thị Huyền Hảo,Nữ,K,K,K,K,K,K,G,K,K,K,Nghiệp vụ
+Vũ Thị Hảo,Nữ,K,K,K,K,K,K,G,TB,G,K,Nghiệp vụ
+Vũ Thị Hiền,Nữ,G,K,K,K,K,K,K,TB,K,K,Nghiệp vụ
+Nguyễn Thị Thu Hoài,Nữ,K,K,K,K,K,K,G,TB,G,K,Nghiệp vụ
+Bạch Văn Hoàng,Nam,K,K,K,TB,TB,K,G,TB,K,TB,Nghiệp vụ
+Phạm Văn Hùng,Nam,K,K,K,K,K,K,G,TB,G,K,Nghiệp vụ
+Nguyễn Hữu Hưng,Nam,G,K,K,K,K,K,G,TB,K,K,Nghiệp vụ
+Nguyễn Thị Lan Hương,Nữ,K,K,K,K,K,K,G,K,G,K,Nghiệp vụ
+Nguyễn Thị Thu Hương,Nữ,K,K,K,K,K,K,G,K,K,K,Nghiệp vụ
+Đỗ Trung Kiên,Nam,K,K,K,G,K,K,G,K,G,K,Nghiệp vụ
+Lê Hải Ly,Nữ,K,K,K,K,K,K,G,K,K,K,Xã hội
+Đỗ Văn Minh,Nam,K,K,K,TB,TB,K,G,TB,K,TB,Nghiệp vụ
+Hoàng Văn Minh,Nam,K,K,K,K,K,K,G,K,G,K,Nghiệp vụ
+Trần Hải Nam,Nam,G,K,K,K,K,K,G,TB,K,K,Nghiệp vụ
+Kim Thị Hồng Nhung,Nữ,TB,K,K,K,K,K,G,TB,G,K,Nghiệp vụ
+Đinh Văn Quang,Nam,K,K,K,K,TB,K,G,TB,G,K,Nghiệp vụ
+Phạm Văn Quân,Nam,K,K,K,K,TB,K,G,TB,G,K,Nghiệp vụ
+Đinh Thị Thảo,Nữ,K,K,G,K,K,K,G,K,G,K,Nghiệp vụ
+Nguyễn Thị Thảo,Nữ,K,G,K,K,K,K,G,K,G,K,Xã hội
+Lê Ðức Thắng,Nam,K,G,K,K,K,K,G,K,G,K,Nghiệp vụ
+Phùng Văn Thế,Nam,K,K,K,K,TB,K,G,TB,G,K,Nghiệp vụ
+Nguyễn Đức Thịnh,Nam,G,G,K,K,K,K,G,K,K,K,Nghiệp vụ
+Đinh Văn Tiến,Nam,K,K,K,TB,K,K,K,TB,G,K,Nghiệp vụ
+Đinh Thị Trang,Nữ,K,K,K,K,K,K,G,K,G,K,Nghiệp vụ
+Đinh Văn Tùng,Nam,G,G,K,TB,K,K,K,K,K,K,Nghiệp vụ
+Nguyễn Hữu Tuyên,Nam,K,K,K,TB,K,K,K,TB,K,K,Nghiệp vụ
+Dương Thị Tú Anh,Nữ,K,K,K,G,K,K,G,TB,G,G,Nghiệp vụ
+Nguyễn Thị Quỳnh Anha,Nữ,Y,K,Y,Y,K,G,Y,Y,G,G,Nghiệp vụ
+Nguyễn Thị Quỳnh Anh,Nữ,G,K,K,K,K,K,K,TB,G,K,Nghiệp vụ
+Vũ Thị Anh,Nữ,K,K,K,K,K,K,G,K,G,K,Nghiệp vụ
+Hoàng Văn Công,Nam,K,K,K,K,TB,K,G,K,G,K,Nghiệp vụ
+Nguyễn Tiến Dương,Nam,K,TB,TB,K,TB,K,K,TB,K,K,Nghiệp vụ
+Lê Ngọc Đại,Nam,G,TB,K,K,K,K,K,TB,G,K,Nghiệp vụ
+Nguyễn Việt Đức,Nam,K,K,K,G,K,K,K,K,G,K,Nghiệp vụ
+Phùng Minh Đức,Nam,K,K,TB,K,K,K,K,TB,G,K,Nghiệp vụ
+Nguyễn Thị Thanh Hà,Nữ,K,K,K,K,K,G,G,TB,G,K,Xã hội
+Phạm Quang Hải,Nam,K,K,K,K,TB,K,G,TB,K,G,Nghiệp vụ
+Trịnh Ngọc Hải,Nam,K,K,K,K,K,K,G,TB,G,G,Nghiệp vụ
+Trần Thị Hạnh,Nữ,K,K,G,G,K,K,G,K,G,G,Nghiệp vụ
+Vũ Thị Hằng,Nữ,K,G,G,G,K,K,G,TB,G,G,Nghiệp vụ
+Đào Thị Mai Hiền,Nữ,K,K,K,K,K,G,G,TB,G,K,Nghiệp vụ
+Dương Tiến Hoàn,Nam,K,K,K,K,K,K,G,TB,G,G,Nghiệp vụ
+Nguyễn Thị Hương,Nữ,K,K,K,K,K,K,G,TB,G,K,Nghiệp vụ
+Nguyễn Đức Khang,Nam,K,K,K,K,K,K,K,K,G,K,Nghiệp vụ
+Vũ Thị Phương Lan,Nữ,K,K,K,G,K,K,G,TB,G,G,Nghiệp vụ
+Phùng Thị Thanh Loan,Nữ,K,K,K,K,K,K,G,TB,G,K,Nghiệp vụ
+Kim Ngọc Long,Nam,K,K,K,K,K,K,K,TB,G,G,Nghiệp vụ
+Bùi Thị Hồng Ly,Nữ,K,K,K,G,K,K,G,K,G,G,Nghiệp vụ
+Bùi Phan Ngọc Minh,Nam,K,K,K,K,TB,K,K,TB,TB,K,Nghiệp vụ
+Lê Đức Minh,Nam,K,K,K,K,K,K,G,TB,G,G,Nghiệp vụ
+Lê Hồng Ngọc,Nữ,K,K,K,K,K,K,G,K,G,K,Nghiệp vụ
+Nguyễn Đức Phước,Nam,G,K,K,K,K,K,K,TB,G,K,Nghiệp vụ
+Nguyễn Trung Quân,Nam,K,TB,K,K,K,K,K,TB,G,K,Nghiệp vụ
+Lê Thị Quý,Nữ,K,G,G,G,G,K,G,K,G,G,Nghiên cứu
+Nguyễn Thị Thu Thanh,Nữ,G,K,G,G,K,K,K,TB,G,G,Nghiên cứu
+Nguyễn Văn Thịnh,Nam,G,K,G,G,K,G,K,TB,G,G,Kỹ thuật
+Đinh Thị Thu,Nữ,K,K,G,G,K,K,G,TB,G,G,Kỹ thuật
+Nguyễn Thị Thủy,Nữ,K,K,K,G,G,K,G,G,G,G,Xã hội
+Dương Đức Toàn,Nam,K,G,G,G,K,K,G,K,G,K,Nghiệp vụ
+Hoàng Văn Trung,Nam,K,K,K,K,K,K,G,TB,G,K,Nghiệp vụ
+Mai Văn Tuấn,Nam,TB,K,K,K,TB,K,G,TB,G,K,Nghiệp vụ
+Mai Thanh Tùng,Nam,K,K,K,K,K,K,K,TB,G,K,Nghiệp vụ
+Nguyễn Long Vũ,Nam,G,K,K,K,K,K,K,TB,G,K,Nghiệp vụ
+Đinh Thị Xoan,Nữ,K,K,K,K,K,K,K,TB,G,K,Nghiệp vụ
+Nguyễn Đình Đức Anh,Nam,G,G,G,K,G,K,G,K,K,G,Nghiên cứu
+Nguyễn Thị Trung Anh,Nữ,K,K,K,K,G,K,K,TB,G,K,Nghiệp vụ
+Lê Trần Ngọc Ánh,Nữ,K,K,K,K,G,K,K,TB,G,G,Nghiệp vụ
+Bùi Minh Công,Nam,K,K,K,K,K,K,K,TB,G,K,Nghiệp vụ
+Lê Tiến Dũng,Nam,K,K,TB,K,K,K,K,Y,K,G,Nghiệp vụ
+Nguyễn Anh Dũng,Nam,K,K,K,K,K,K,K,TB,K,K,Nghiệp vụ
+Đặng Tiến Dương,Nam,G,K,K,K,K,K,K,TB,K,K,Nghiệp vụ
+Nguyễn Minh Đức,Nam,K,K,K,K,G,K,K,TB,G,G,Nghiệp vụ
+Kim Thị Thu Hà,Nữ,K,K,K,K,K,K,K,TB,K,K,Nghiệp vụ
+Bùi Văn Hiếu,Nam,G,K,K,G,G,K,G,G,G,K,Xã hội
+Đỗ Văn Hiếu,Nam,K,K,K,K,K,K,K,TB,G,K,Nghiệp vụ
+Nguyễn Văn Hoàng,Nam,K,K,K,K,K,K,K,TB,K,K,Nghiệp vụ
+Nguyễn Thị Huế,Nữ,G,G,K,K,G,K,G,K,G,G,Nghiên cứu
+Mai Quang Huy,Nam,K,G,K,K,K,K,G,TB,G,K,Nghiệp vụ
+Đinh Thị Thu Huyền,Nữ,K,K,K,K,G,K,K,K,G,G,Xã hội
+Lê Thị Khánh Huyền,Nữ,K,K,K,K,K,K,K,TB,K,K,Nghiệp vụ
+Nguyễn Thị Thanh Huyền,Nữ,K,K,K,K,K,K,K,TB,G,K,Nghiệp vụ
+Trần Thị Huyền,Nữ,K,K,K,K,K,K,K,TB,G,K,Nghiệp vụ
+Vũ Thị Mai Hương,Nữ,G,K,K,K,G,K,G,TB,G,K,Xã hội
+Đinh Thị Hường,Nữ,G,G,G,G,G,K,G,K,K,K,Nghiên cứu
+Trịnh Văn Khang,Nam,K,K,K,K,K,K,G,TB,K,G,Nghiệp vụ
+Nguyễn Thị Mai Lan,Nữ,G,K,K,K,K,K,G,K,G,K,Nghiệp vụ
+Trần Thị Phương Liên,Nữ,G,G,G,K,G,G,G,G,G,G,Nghiên cứu
+Phạm Khánh Linh,Nữ,K,K,K,K,G,K,G,TB,G,K,Nghiệp vụ
+Đinh Thành Long,Nam,K,K,K,K,K,K,K,TB,K,K,Nghiệp vụ
+Nguyễn Thị Mận,Nữ,G,K,K,K,G,K,G,K,G,G,Nghiệp vụ
+Lê Thị A Na,Nữ,K,K,K,K,G,K,G,K,G,K,Nghiệp vụ
+Bạch Thị Thanh Nga,Nữ,G,K,K,K,G,K,G,K,G,K,Xã hội
+Hoàng Thị Kim Ngân,Nữ,K,K,K,K,G,K,K,TB,G,K,Nghiệp vụ
+Nguyễn Thị Ngọc,Nữ,K,K,K,K,G,K,K,TB,G,G,Nghiệp vụ
+Bùi Duy Nhâm,Nam,K,G,K,K,K,K,K,TB,K,K,Nghiệp vụ
+Hoàng Văn Quý,Nam,TB,K,K,K,K,K,K,TB,K,K,Nghiệp vụ
+Ðặng Quang Sơn,Nam,K,K,K,K,K,K,K,TB,K,G,Nghiệp vụ
+Trương Công Sơn,Nam,TB,TB,TB,K,K,K,K,Y,K,K,Nghiệp vụ
+Bạch Thanh Tâm,Nữ,K,K,K,K,G,K,G,TB,G,K,Xã hội
+Lê Thị Mỹ Tân,Nữ,K,K,K,K,G,K,K,K,G,K,Nghiệp vụ
+Phùng Việt Tấn,Nam,K,K,K,K,K,K,K,TB,G,K,Nghiệp vụ
+Lê Thị Thanh,Nữ,G,G,K,K,G,G,G,K,G,K,Nghiên cứu
+Đoàn Thị Thắm,Nữ,G,G,K,K,G,K,K,K,K,G,Nghiên cứu
+Nguyễn Đức Thịnh,Nam,G,K,K,K,G,K,K,TB,K,G,Nghiệp vụ
+Phạm Thị Kim Thu,Nữ,G,K,K,K,K,G,G,K,G,G,Nghiệp vụ
+Nguyễn Thị Thanh Thuý,Nữ,G,K,K,K,G,K,G,K,G,K,Nghiên cứu
+Mai Công Tuấn,Nam,G,K,K,K,G,K,G,TB,K,K,Nghiệp vụ
+Đinh Thị Tươi,Nữ,G,K,K,K,G,K,K,K,G,K,Nghiệp vụ
+Mai Danh Uy,Nam,Y,Y,Y,G,G,Y,G,Y,G,Y,Nghiệp vụ
+Nguyễn Thị Kim Anh,Nữ,G,G,K,K,G,G,G,G,G,G,Xã hội
+Đặng Thị Duyên,Nữ,G,G,K,K,G,G,G,G,G,G,Xã hội
+Lê Thị Thùy Dương,Nữ,G,K,K,K,G,G,G,K,G,G,Xã hội
+Phùng Việt Đức,Nam,K,K,K,K,K,K,K,G,G,G,Nghiệp vụ
+Nguyễn Thị Giang,Nữ,G,G,K,K,K,G,G,G,G,G,Nghiên cứu
+Mai Hồng Hải,Nam,K,K,K,K,K,K,K,K,K,G,Nghiệp vụ
+Nguyễn Thị Hiên,Nữ,G,G,G,G,G,G,G,G,G,G,Nghiên cứu
+Đinh Thu Hiền,Nữ,G,G,K,K,K,G,K,G,G,G,Nghiên cứu
+Nguyễn Thị Thu Hòa,Nữ,K,K,K,K,K,K,K,G,K,K,Nghiệp vụ
+Phạm Thị Thanh Huyền,Nữ,G,K,K,K,K,G,K,K,K,K,Nghiệp vụ
+Bùi Thị Hương,Nữ,K,K,K,K,K,G,K,K,G,K,Nghiệp vụ
+Lê Thị Hường,Nữ,G,G,K,K,K,G,K,G,G,K,Nghiệp vụ
+Nguyễn Thị Hường,Nữ,G,K,K,K,K,K,K,K,G,G,Nghiệp vụ
+Trần Chí Kiên,Nam,G,K,K,K,K,G,G,G,G,G,Xã hội
+Đinh Thị Lan,Nữ,K,K,K,K,K,K,K,G,G,K,Nghiệp vụ
+Nguyễn Thị Diệu Linh,Nữ,G,G,K,K,K,G,K,K,K,K,Nghiệp vụ
+Vũ Thị Thùy Linh,Nữ,G,G,K,K,K,G,K,K,G,G,Nghiệp vụ
+Nguyễn Thị Lý,Nữ,G,K,K,K,K,G,K,G,G,G,Nghiệp vụ
+Vũ Thị Mai,Nữ,G,K,K,K,K,G,K,G,G,K,Kinh doanh
+Nghiêm Văn Mạnh,Nam,K,K,K,K,K,K,K,K,K,K,Nghiệp vụ
+Nguyễn Văn Mạnh,Nam,G,K,K,K,K,K,K,K,G,K,Nghiệp vụ
+Vũ Xuân Nam,Nam,G,G,K,K,K,K,G,G,G,K,Nghiên cứu
+Phan Phùng Yến Nhi,Nữ,K,G,K,K,G,G,K,G,G,G,Nghiệp vụ
+Đào Lệ Nhuần,Nữ,K,K,K,K,K,G,K,K,G,G,Nghiệp vụ
+Đinh Thị Nhung,Nữ,G,K,K,K,K,G,G,G,G,G,Nghiệp vụ
+Nguyễn Hồng Phúc,Nam,K,G,K,K,K,G,G,G,G,K,Nghiệp vụ
+Nguyễn Anh Quốc,Nam,K,K,K,K,K,K,K,K,TB,K,Nghiệp vụ
+Nghiêm Văn Sơn,Nam,K,K,K,K,K,K,G,K,K,K,Nghiệp vụ
+Nguyễn Thanh Tài,Nam,K,K,K,K,K,K,K,K,TB,K,Nghiệp vụ
+Nguyễn Thị Thuỷ,Nữ,K,G,K,K,K,K,G,K,G,G,Nghiệp vụ
+Bạch Thị Trang,Nữ,G,G,K,G,G,G,G,G,G,G,Nghiên cứu
+Hoàng Thị Hoài Trang,Nữ,G,K,K,K,G,G,K,G,G,G,Nghiên cứu
+Nguyễn Thị Trang,Nữ,K,G,K,G,K,K,K,K,G,K,Nghiệp vụ
+Nguyễn Thị Huyền Trang,Nữ,G,G,G,G,G,G,G,G,G,G,Nghiên cứu
+Ðặng Minh Tuấn,Nam,K,K,K,K,K,K,K,K,G,K,Nghiệp vụ
+Mai Thanh Tuấn,Nam,G,G,K,K,K,K,G,G,K,G,Nghiệp vụ
+Bùi Xuân Tùng,Nam,K,K,K,K,K,K,K,K,K,G,Nghiệp vụ
+Phạm Văn Uy,Nam,K,K,K,K,K,K,K,K,K,G,Nghiệp vụ
+Nguyễn Thị Vân,Nữ,K,K,K,K,G,K,K,G,G,G,Kinh doanh
+Nguyễn Thị Thảo Vân,Nữ,K,G,K,K,K,G,K,K,G,G,Nghiệp vụ
+Nguyễn Thị Yến,Nữ,K,G,K,K,G,G,K,G,G,G,Xã hội
+Nguyễn Ngọc Anh,Nữ,K,TB,K,K,K,K,K,K,G,K,Nghiệp vụ
+Nguyễn Thị Ngọc Ánh,Nữ,K,TB,K,K,K,K,G,K,G,K,Nghiệp vụ
+Nguyễn Hữu Bình,Nam,K,K,TB,K,K,K,G,K,G,K,Nghiệp vụ
+Nghiêm Thị Thuỳ Dương,Nữ,G,K,K,K,K,K,G,G,G,K,Kinh doanh
+Nguyễn Tiến Đạt,Nam,TB,TB,K,K,K,K,G,K,G,K,Nghiệp vụ
+Nguyễn Duy Đông,Nam,K,TB,K,K,K,K,K,K,K,K,Nghiệp vụ
+Nguyễn Văn Đức,Nam,TB,K,K,K,K,K,G,K,K,K,Nghiệp vụ
+Nguyễn Thị Giang,Nữ,G,G,G,K,G,K,G,G,G,K,Nghiên cứu
+Lê Thu Hà,Nữ,G,K,G,K,K,K,G,K,G,G,Nghiệp vụ
+Phạm Thị Thanh Hải,Nữ,G,K,K,G,K,K,G,G,G,K,Kinh doanh
+Nguyễn Thị Thu Hiền,Nữ,K,K,K,K,K,K,K,K,G,K,Nghiệp vụ
+Nguyễn Thị Hồng Hoa,Nữ,K,TB,K,K,K,K,K,K,K,K,Nghiệp vụ
+Bùi Thị Lan Hương,Nữ,TB,K,K,K,K,K,G,K,G,K,Nghiệp vụ
+Đinh Thị Thúy Hường,Nữ,K,K,K,K,K,K,G,G,G,K,Nghiệp vụ
+Nguyễn Thị Lan,Nữ,TB,TB,K,K,K,K,K,K,K,G,Nghiệp vụ
+Nguyễn Thị Linh,Nữ,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Nghiệp vụ
+Nguyễn Ngọc Long,Nam,TB,TB,TB,K,K,K,K,K,K,K,Nghiệp vụ
+Đặng Văn Lợi,Nam,K,K,TB,K,K,K,G,G,K,K,Nghiệp vụ
+Bùi Thị Mai,Nữ,K,K,K,K,K,K,G,K,G,K,Nghiệp vụ
+Đỗ Quang Minh,Nam,K,K,TB,K,K,K,G,K,K,K,Nghiệp vụ
+Nguyễn Văn Nam,Nam,K,TB,K,K,K,K,K,K,TB,K,Nghiệp vụ
+Bùi Thị Kim Ngân,Nữ,K,TB,K,K,K,K,G,G,G,K,Nghiệp vụ
+Bùi Minh Nguyệt,Nữ,K,TB,K,K,K,K,G,K,G,K,Nghiệp vụ
+Phạm Trang Nhung,Nữ,TB,K,TB,K,K,K,G,G,G,K,Nghiệp vụ
+Đào Việt Phát,Nam,K,TB,K,K,K,K,G,K,K,K,Nghiệp vụ
+Nguyễn Thị Phương,Nữ,K,K,K,K,K,K,K,K,G,K,Nghiệp vụ
+Bùi Ngọc Sơn,Nam,K,K,K,K,K,K,K,K,G,K,Nghiệp vụ
+Nguyễn Đức Tâm,Nam,K,TB,TB,K,K,K,K,K,K,K,Nghiệp vụ
+Nguyễn Công Thành,Nam,K,TB,TB,K,K,K,G,K,TB,K,Nghiệp vụ
+Phùng Thị Thao,Nữ,G,K,G,G,K,K,G,G,G,K,Kỹ thuật
+Bùi Công Thể,Nam,K,TB,TB,K,K,K,K,K,G,K,Nghiệp vụ
+Đỗ Chí Thông,Nam,TB,TB,TB,K,K,K,K,K,K,K,Nghiệp vụ
+Nghiêm Thị Thơm,Nữ,K,K,K,K,K,K,G,K,G,K,Nghiệp vụ
+Nghiêm Thị Thu,Nữ,K,K,K,K,K,K,G,K,G,K,Nghiệp vụ
+Nguyễn Thị Thùy,Nữ,G,G,K,G,K,K,G,G,G,G,Nghiên cứu
+Nguyễn Thị Thu Thúy,Nữ,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Nghiệp vụ
+Hoàng Thị Thủy Tiên,Nữ,K,K,K,K,K,K,G,G,K,K,Nghiệp vụ
+Đinh Văn Trung,Nam,K,K,G,K,K,K,G,K,G,K,Nghiệp vụ
+Nguyễn Hữu Trường,Nam,TB,K,K,G,K,K,K,K,K,K,Nghiệp vụ
+Phạm Duy Tuấn,Nam,TB,TB,TB,K,K,K,K,K,K,K,Nghiệp vụ
+Lê Quang Tuyên,Nam,K,K,G,G,K,K,G,K,G,K,Kỹ thuật
+Bùi Ánh Tuyết,Nữ,TB,TB,K,K,K,K,K,K,K,K,Nghiệp vụ
+Đinh Thị Mỹ Uyên,Nữ,TB,K,K,K,K,K,G,K,G,K,Nghiệp vụ
+Nguyễn Trung Yên,Nam,K,K,K,K,K,K,G,G,K,K,Nghiệp vụ

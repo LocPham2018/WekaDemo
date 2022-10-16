@@ -1,0 +1,568 @@
+@relation LOP_12
+
+@attribute name string
+@attribute gender {Nam,Nu}
+@attribute Toan {G,K,TB,Y}
+@attribute Li {G,K,TB,Y}
+@attribute Hoa {G,K,TB,Y}
+@attribute Sinh {G,K,TB,Y}
+@attribute Van {G,K,TB,Y}
+@attribute Su {G,K,TB,Y}
+@attribute Dia {G,K,TB,Y}
+@attribute NN {G,K,TB,Y}
+@attribute CN {G,K,TB,Y}
+@attribute GDCD {G,K,TB,Y}
+@attribute MyThuat {G,K,TB,Y}
+@attribute Nhac {G,K,TB,Y}
+@attribute NganhDinhHuong {Kinh_doanh,Ky_thuat,Nghien_cuu,Nghiep_vu,Nghe_thuat,Xa_hoi}
+
+@data
+'Nguyen Thanh An',Nam,G,G,G,G,K,K,G,K,G,G,G,K,Ky_thuat
+'Dinh Thi Mai Anh',Nu,G,G,G,K,K,K,G,K,G,G,K,K,Ky_thuat
+'Mai Thi Thuc Anh',Nu,G,G,G,G,G,G,G,K,G,G,G,G,Nghe_thuat
+'Kim Duc Dung',Nam,G,G,K,G,K,G,G,G,G,G,G,G,Nghe_thuat
+'Nguyen Dinh Dung',Nam,G,G,G,G,K,K,G,K,G,G,G,K,Ky_thuat
+'Phung An Duy',Nam,G,G,G,G,K,G,G,K,G,G,G,G,Nghe_thuat
+'Tran Thi Thu Ha',Nu,G,G,G,G,K,K,G,K,G,G,G,K,Ky_thuat
+'Kim Thi Hong Hanh',Nu,G,G,G,K,K,K,G,K,G,G,K,K,Ky_thuat
+'Nguyen Thi Thu Hang',Nu,G,G,G,G,K,G,G,K,G,G,G,G,Nghe_thuat
+'Dinh Thi Mai Hoa',Nu,G,G,K,K,G,K,G,G,G,G,K,K,Xa_hoi
+'Dinh Thi Anh Hong',Nu,G,G,G,G,K,G,G,K,G,G,G,G,Nghe_thuat
+'Dang Thi My Hue',Nu,G,G,K,G,K,K,G,K,G,G,G,K,Nghien_cuu
+'Nguyen Ngoc Huyen',Nu,G,G,G,G,K,G,G,G,G,G,G,G,Nghe_thuat
+'Nguyen Tuyet Thuong Huyen',Nu,G,G,G,G,K,G,G,K,G,G,G,G,Nghe_thuat
+'Pham Thi Ngoc Huyen',Nu,G,G,G,G,K,G,G,K,G,G,G,G,Nghe_thuat
+'Nguyen Thu Huong',Nu,G,G,G,K,K,K,G,K,G,G,K,K,Ky_thuat
+'Nguyen Duy Khanh',Nam,G,G,G,K,TB,K,G,TB,G,G,K,K,Ky_thuat
+'Le Thi Thuy Linh',Nu,G,G,K,G,K,G,G,K,G,G,G,G,Nghe_thuat
+'Nguyen Hai Linh',Nu,G,G,G,G,K,K,G,K,G,G,G,K,Ky_thuat
+'Nguyen Huu Linh',Nam,G,G,K,K,TB,K,G,G,G,G,K,K,Nghien_cuu
+'Tran Thi Khanh Linh',Nu,G,G,K,K,K,K,G,K,G,G,K,K,Nghien_cuu
+'Le Thi Hien Luong',Nu,G,G,K,K,K,K,G,G,G,G,K,K,Nghien_cuu
+'Nguyen Thi Hai Ly',Nu,G,G,K,G,G,G,G,K,G,G,G,G,Nghe_thuat
+'Nguyen Thi Thu Mai',Nu,G,G,G,K,K,G,G,K,G,G,K,G,Nghe_thuat
+'Nguyen Tra Mi',Nu,G,G,G,G,G,K,G,K,G,G,G,K,Xa_hoi
+'Kim Ngoc Minh',Nam,G,G,K,K,K,K,G,K,G,G,K,K,Nghien_cuu
+'Dinh Thi Ha My',Nu,G,G,G,K,K,K,G,K,G,G,K,K,Ky_thuat
+'Nguyen Bich Ngoc',Nu,G,G,G,G,K,G,G,G,G,G,G,G,Nghe_thuat
+'Nguyen Thi Bich Ngoc',Nu,G,G,G,G,G,G,G,G,G,G,G,G,Nghe_thuat
+'Nguyen Hoai Phuong',Nu,G,G,G,G,K,G,G,K,G,G,G,G,Nghe_thuat
+'Nguyen Van Quang',Nam,G,G,G,K,TB,K,G,TB,G,G,K,K,Ky_thuat
+'Trinh Anh Quan',Nam,G,G,G,G,K,K,G,G,G,G,G,K,Ky_thuat
+'Dam Thi Nhu Quynh',Nu,G,G,G,K,K,K,G,K,G,G,K,K,Ky_thuat
+'Kim Ngoc Son',Nam,G,G,G,G,K,G,G,G,G,G,G,G,Nghe_thuat
+'Le Anh Son',Nam,G,G,G,K,TB,G,G,TB,G,G,K,G,Nghe_thuat
+'Mai Danh Tan',Nam,G,G,G,K,TB,K,G,TB,G,G,K,K,Ky_thuat
+'Le Phuong Thao',Nu,G,G,G,G,K,G,G,K,G,G,G,G,Nghe_thuat
+'Nguyen Thi Minh Thao',Nu,G,G,G,G,G,G,G,G,G,G,G,G,Nghe_thuat
+'Bui Duc Tho',Nam,G,G,K,K,TB,K,G,K,G,G,K,K,Nghien_cuu
+'Dang Van Toan',Nam,G,G,G,G,K,K,G,K,G,G,G,K,Ky_thuat
+'Nguyen Ngoc Toan',Nam,G,G,G,G,TB,G,G,K,G,G,G,G,Nghe_thuat
+'Le Thuy Trang',Nu,G,G,G,K,K,G,G,K,G,G,K,G,Nghe_thuat
+'Ngo Thi Ngoc Trinh',Nu,G,G,K,G,G,K,G,G,G,G,G,K,Xa_hoi
+'Tran Xuan Truong',Nam,G,G,G,K,TB,K,G,Y,G,G,K,K,Ky_thuat
+'Le Manh Tu',Nam,G,G,G,K,TB,G,G,TB,G,G,K,G,Nghe_thuat
+'Le Minh Tuong',Nam,G,G,G,K,TB,K,G,TB,G,G,K,K,Ky_thuat
+'Pham Do Dieu Anh',Nu,G,G,K,G,K,K,G,G,G,G,G,K,Nghien_cuu
+'Tran Quoc Chinh',Nam,G,G,K,K,K,K,G,G,G,G,K,K,Nghien_cuu
+'Vu Viet Dung',Nam,G,G,G,G,K,K,G,G,G,G,G,K,Ky_thuat
+'Le Dinh Duy',Nam,G,G,G,G,K,G,G,K,G,G,G,G,Nghe_thuat
+'Tran Duc Duy',Nam,G,G,G,G,K,K,G,G,G,G,G,K,Ky_thuat
+'Nguyen Thi Anh Duong',Nu,G,G,G,G,K,K,G,G,G,G,G,K,Ky_thuat
+'Nguyen Minh Duc',Nam,G,G,G,G,K,K,G,G,G,G,G,K,Ky_thuat
+'Tran Van Duc',Nam,G,K,K,G,K,G,G,G,G,G,G,G,Nghe_thuat
+'Nguyen Truong Giang',Nam,G,G,G,G,K,K,K,G,G,G,G,K,Ky_thuat
+'Tran Van Hao',Nam,G,G,K,G,K,K,G,K,G,G,G,K,Nghien_cuu
+'Tran Quang Hien',Nam,G,G,K,G,K,K,G,G,G,G,G,K,Nghien_cuu
+'Nguyen Ngoc Huyen',Nu,G,G,G,G,K,G,G,G,G,G,G,G,Nghe_thuat
+'Mai Thi Tan Huong',Nu,G,G,G,G,G,K,G,G,G,G,G,K,Xa_hoi
+'Dinh Van Khai',Nam,G,G,G,G,K,K,K,G,G,G,G,K,Ky_thuat
+'Nguyen Thi Khanh',Nu,G,G,G,G,K,K,G,G,G,G,G,K,Ky_thuat
+'Do Duy Khanh',Nam,G,G,G,G,K,K,G,G,G,G,G,K,Ky_thuat
+'Tran Thi Ngoc Lan',Nu,G,K,K,G,K,K,G,G,G,G,G,K,Kinh_doanh
+'Nguyen Thi Hong Lien',Nu,G,G,K,G,K,K,G,G,G,G,G,K,Nghien_cuu
+'Tran Thi Hong Lien',Nu,G,G,G,G,K,K,G,G,G,G,G,K,Ky_thuat
+'Bui Thuy Linh',Nu,G,G,K,G,K,K,G,G,G,G,G,K,Nghien_cuu
+'Hoang Van Linh',Nu,G,G,K,G,G,G,G,G,G,G,G,G,Nghe_thuat
+'Nguyen Thi Thuy Linh',Nu,G,G,G,G,K,K,G,G,G,G,G,K,Ky_thuat
+'Nguyen Thi Khanh Ly',Nu,G,G,G,G,K,K,K,G,G,G,G,K,Ky_thuat
+'Nguyen Thi Ngoc Mai',Nu,G,G,K,G,K,G,G,G,G,G,G,G,Nghe_thuat
+'Nguyen Thi Tra My',Nu,G,G,G,G,K,K,G,G,G,G,G,K,Ky_thuat
+'Nguyen Bao Ngoc',Nu,K,G,K,G,K,K,G,G,G,G,G,K,Nghien_cuu
+'Nguyen Huu Quoc Phu',Nam,G,G,G,G,K,K,K,K,G,G,G,K,Ky_thuat
+'Vu Nhu Phuong',Nu,G,G,G,G,K,K,G,G,G,G,G,K,Ky_thuat
+'Ngo Van Quyet',Nam,G,G,G,G,K,K,K,G,G,G,G,K,Ky_thuat
+'Le Van Song',Nam,G,G,G,G,K,G,G,G,G,G,G,G,Nghe_thuat
+'Nguyen Thuong Tai',Nam,G,G,G,K,K,K,K,G,G,G,K,K,Ky_thuat
+'Mai Thi Minh Tam',Nu,G,G,G,G,K,K,G,G,G,G,G,K,Ky_thuat
+'Ngo Tran Duc Thai',Nam,G,G,G,G,K,K,G,G,G,G,G,K,Ky_thuat
+'Bui Thi Thanh',Nu,G,G,G,G,G,K,G,G,G,G,G,K,Xa_hoi
+'Le Thi Phuong Thao',Nu,G,G,G,G,K,K,G,G,G,G,G,K,Ky_thuat
+'Tran Thi Thao',Nu,G,G,G,G,K,K,G,G,G,G,G,K,Ky_thuat
+'Nguyen Huu Thi',Nam,G,G,K,G,K,K,G,G,G,G,G,K,Nghien_cuu
+'Kim Anh Thu',Nu,G,K,K,G,G,G,G,G,G,G,G,G,Nghe_thuat
+'Nguyen Van Tien',Nam,G,K,G,G,K,K,G,K,G,G,G,K,Ky_thuat
+'Nguyen Khac Phong Toan',Nam,G,G,G,G,K,K,G,G,G,G,G,K,Ky_thuat
+'Bui Mai Thu Trang',Nu,G,K,K,G,G,K,G,G,G,G,G,K,Xa_hoi
+'Nguyen Thuy Trang',Nu,G,G,K,G,K,G,G,G,G,G,G,G,Nghe_thuat
+'Nguyen Duc Trong',Nam,G,G,G,G,K,K,G,G,G,G,G,K,Ky_thuat
+'Nguyen Van Tuan',Nam,G,G,G,G,K,K,G,G,G,G,G,K,Ky_thuat
+'Nguyen Thi Thu Van',Nu,G,G,K,G,K,K,G,G,G,G,G,K,Nghien_cuu
+'Nguyen Dinh Vinh',Nam,G,K,K,G,K,K,G,G,G,G,G,K,Kinh_doanh
+'Tran Duy Anh',Nam,G,K,K,G,K,K,K,TB,G,G,G,K,Kinh_doanh
+'Nguyen Dinh Canh',Nam,G,G,G,G,K,K,G,K,G,G,G,K,Ky_thuat
+'Bui Thi Chi',Nu,G,G,G,G,K,G,G,K,G,G,G,G,Nghe_thuat
+'Pham Linh Chi',Nu,G,G,G,G,G,G,G,K,G,G,G,G,Nghe_thuat
+'Bach Thi Cuc',Nu,G,G,G,G,G,G,G,K,G,G,G,G,Nghe_thuat
+'Le Dinh Khanh Duy',Nam,K,K,TB,G,K,K,K,K,G,G,G,K,Nghiep_vu
+'Le Ã?uc Duy',Nam,G,G,K,G,K,K,G,K,G,G,G,K,Nghien_cuu
+'Nguyen Thi Thuy Duong',Nu,G,G,G,G,K,K,G,K,G,G,G,K,Ky_thuat
+'Nguyen Thanh Dat',Nam,G,K,K,G,K,K,G,K,G,G,G,K,Kinh_doanh
+'Nguyen Huu Dong',Nam,K,G,K,G,K,K,G,K,G,G,G,K,Nghien_cuu
+'Dao Minh Duc',Nam,G,G,G,G,K,G,G,K,G,G,G,G,Nghe_thuat
+'Trinh Thanh Hai',Nam,G,G,K,K,K,K,G,K,G,G,K,K,Nghien_cuu
+'Nguyen Ngoc Hoa',Nam,G,K,K,G,K,K,G,TB,G,G,G,K,Kinh_doanh
+'Nguyen Thi Hue',Nu,G,G,G,G,G,K,G,K,G,G,G,K,Xa_hoi
+'Nguyen Thi Hue',Nu,G,G,G,G,K,G,G,K,G,G,G,G,Nghe_thuat
+'Nguyen Quang Huy',Nam,G,G,G,G,K,K,G,K,G,G,G,K,Ky_thuat
+'Trinh Quoc Huy',Nam,G,G,G,G,K,K,G,K,G,G,G,K,Ky_thuat
+'Dinh Thi Thanh Huyen',Nu,G,G,G,G,G,K,G,K,G,G,G,K,Xa_hoi
+'Nguyen Thu Huyen',Nu,G,G,G,G,G,G,G,K,G,G,G,G,Nghe_thuat
+'Nguyen Thu Huyen',Nu,G,G,G,G,G,G,G,K,G,G,G,G,Nghe_thuat
+'Vu Thi Thu Huyen',Nu,G,G,K,G,G,G,G,K,G,G,G,G,Nghe_thuat
+'Bach Quoc Khanh',Nam,G,G,K,G,K,K,G,K,G,G,G,K,Nghien_cuu
+'Nguyen Thi Lien',Nu,G,G,G,G,K,K,G,K,G,G,G,K,Ky_thuat
+'Nguyen Truc Linh',Nu,G,G,K,G,G,K,G,K,G,G,G,K,Xa_hoi
+'Tran Phuc Loc',Nam,G,K,TB,K,G,K,G,K,G,G,K,K,Xa_hoi
+'Tran Van Luong',Nam,G,G,K,G,K,K,G,K,G,G,G,K,Nghien_cuu
+'Nguyen Thi Ly',Nu,G,G,G,G,G,K,G,K,G,G,G,K,Xa_hoi
+'Nguyen Ba Manh',Nam,K,G,K,G,K,K,G,K,G,G,G,K,Nghien_cuu
+'Nguyen Tien Manh',Nam,G,G,K,G,K,K,G,K,G,G,G,K,Nghien_cuu
+'Dinh Nhat Minh',Nu,G,G,G,G,K,K,G,G,G,G,G,K,Ky_thuat
+'Tran Thi Nhan',Nu,K,K,K,G,K,G,G,K,G,G,G,G,Nghe_thuat
+'Trinh Tan Phat',Nam,G,K,K,G,G,K,G,K,G,G,G,K,Xa_hoi
+'Dinh Thi Mai Phuong',Nu,G,G,K,G,G,K,G,G,G,G,G,K,Xa_hoi
+'Nguyen Thi Quyen',Nu,G,G,G,G,G,G,G,K,G,G,G,G,Nghe_thuat
+'Tran Van Thanh',Nam,G,G,K,G,K,K,G,K,G,G,G,K,Nghien_cuu
+'Nguyen Thi Thu Thao',Nu,G,G,K,G,G,K,G,K,G,G,G,K,Xa_hoi
+'Nguyen Thi Xuan Thu',Nu,G,G,K,G,G,K,G,G,G,G,G,K,Xa_hoi
+'Du Thuy Thuong',Nu,G,G,K,G,G,K,G,K,G,G,G,K,Xa_hoi
+'Duong Anh Tuan',Nam,G,G,G,G,K,K,G,K,G,G,G,K,Ky_thuat
+'Nguyen Huu Tuan',Nam,G,G,G,G,K,K,G,K,G,G,G,K,Ky_thuat
+'Trinh Thi To Uyen',Nu,G,G,G,G,G,G,G,K,G,G,G,G,Nghe_thuat
+'Phung Thi Tuong Van',Nu,G,G,K,G,G,G,G,K,G,G,G,G,Nghe_thuat
+'Le Dinh Vinh',Nam,G,G,G,G,K,G,G,K,G,G,G,G,Nghe_thuat
+'Ã?ang Hoang Vu',Nam,G,K,G,K,K,K,K,K,G,G,K,K,Ky_thuat
+'Le Tuan Vu',Nam,K,G,K,G,K,K,G,K,G,G,G,K,Nghien_cuu
+'Nguyen Thi Hai Yen',Nu,G,G,K,G,K,K,G,G,G,G,G,K,Nghien_cuu
+'Nguyen Viet Anh',Nam,G,G,K,G,K,K,G,G,G,K,G,K,Nghien_cuu
+'Bui Trung Chien',Nam,G,G,G,K,K,G,K,G,K,G,K,G,Nghe_thuat
+'Kim Ngoc Chinh',Nam,G,G,G,G,K,K,G,G,G,K,G,K,Ky_thuat
+'Bui Thi Dung',Nu,G,G,K,K,K,G,K,G,G,K,K,G,Nghe_thuat
+'Le Van Duy',Nam,G,G,G,G,K,K,G,G,G,K,G,K,Ky_thuat
+'Bui Thi Duyen',Nu,G,G,G,G,K,K,G,G,G,G,G,K,Ky_thuat
+'Nguyen Ha Giang',Nu,G,G,K,G,G,K,K,G,K,G,G,K,Xa_hoi
+'Bui Thi Ha',Nu,G,G,G,G,K,G,G,G,K,K,G,G,Nghe_thuat
+'Dinh Thi Hong Hanh',Nu,G,G,G,K,K,G,G,G,G,G,K,G,Nghe_thuat
+'Ngo Thi Thuy Hang',Nu,G,G,G,K,K,G,G,G,G,G,K,G,Nghe_thuat
+'Trinh Xuan Hieu',Nam,G,G,G,G,K,K,K,K,G,K,G,K,Ky_thuat
+'Dinh Thi Huyen',Nu,G,G,G,G,K,G,G,G,G,K,G,G,Nghe_thuat
+'Mai Thi Thu Huyen',Nu,G,G,G,G,G,K,G,G,G,K,G,K,Xa_hoi
+'Nguyen Mai Huong',Nu,G,G,G,G,G,K,G,G,G,G,G,K,Xa_hoi
+'Vu Thi Huong',Nu,G,G,G,G,G,G,G,G,G,G,G,G,Nghe_thuat
+'Tran Phuong Khanh',Nu,G,G,G,G,K,G,G,G,K,G,G,G,Nghe_thuat
+'Bui Van Quoc Khanh',Nam,G,G,G,K,TB,K,K,K,G,K,K,K,Ky_thuat
+'Dang Dinh Kien',Nam,G,G,G,G,K,K,K,K,K,K,G,K,Ky_thuat
+'Trieu Thi Thuy Lan',Nu,G,G,K,K,G,K,K,G,G,K,K,K,Xa_hoi
+'Nguyen Tien Lam',Nam,G,G,K,G,K,K,K,K,G,G,G,K,Nghien_cuu
+'Duong Van Minh',Nam,G,G,K,G,K,K,K,G,G,K,G,K,Nghien_cuu
+'Hoang Thi Hang Nga',Nu,G,G,G,G,G,K,G,G,G,G,G,K,Xa_hoi
+'Le Thi Kim Ngoan',Nu,G,G,G,K,K,K,G,G,G,G,K,K,Ky_thuat
+'Nguyen Thi Anh Nguyet',Nu,G,G,G,K,K,K,K,G,G,G,K,K,Ky_thuat
+'Nguyen Quang Phat',Nam,G,G,G,G,K,G,K,G,G,K,G,G,Nghe_thuat
+'Le Mai Phuong',Nu,G,G,K,K,K,K,G,G,G,G,K,K,Nghien_cuu
+'Le Thu Phuong',Nu,G,G,G,G,K,G,K,G,G,K,G,G,Nghe_thuat
+'Kim Ngoc Quy',Nam,G,G,K,K,K,K,K,G,G,G,K,K,Nghien_cuu
+'Phung Thi My Tam',Nu,G,G,G,G,K,K,G,G,G,G,G,K,Ky_thuat
+'Nguyen Phuong Thanh',Nu,G,G,G,G,K,K,G,K,G,K,G,K,Ky_thuat
+'Nguyen Thi My Thao',Nu,G,G,G,G,K,G,K,G,G,K,G,G,Nghe_thuat
+'Tran Thi Thuy',Nu,G,G,G,G,K,K,G,G,G,G,G,K,Ky_thuat
+'Dinh Xuan Trong',Nam,G,G,G,G,K,G,G,G,G,G,G,G,Nghe_thuat
+'Nguyen Cong Tuan',Nam,G,G,K,K,K,K,K,K,K,K,K,K,Nghien_cuu
+'Dinh Van Tuyen',Nam,G,G,K,K,K,G,K,K,G,K,K,G,Nghe_thuat
+'Le Thi Thu Uyen',Nu,G,G,K,G,G,G,G,G,G,G,G,G,Nghe_thuat
+'Trinh Thi Uyen',Nu,G,G,K,G,G,K,K,G,G,G,G,K,Xa_hoi
+'Nguyen Thi Xuan',Nu,G,G,G,G,K,K,G,G,G,G,G,K,Ky_thuat
+'Nguyen Thi Phung Anh',Nu,G,G,K,G,G,K,G,G,G,K,G,K,Xa_hoi
+'Nguyen Thi Van Anh',Nu,G,G,G,K,K,K,G,G,K,K,K,K,Ky_thuat
+'Pham Thi Lan Anh',Nu,G,G,K,K,G,G,G,G,G,G,K,G,Nghe_thuat
+'Nguyen Huu Bao',Nam,G,G,G,K,K,K,G,K,K,K,K,K,Ky_thuat
+'Bui Minh Chien',Nam,K,G,K,K,K,K,G,K,K,K,K,K,Nghien_cuu
+'Ã?oan Minh Chien',Nam,K,G,K,K,K,G,G,K,K,K,K,G,Nghe_thuat
+'Ã?o Thanh Cong',Nam,G,G,G,K,K,K,G,K,K,K,K,K,Ky_thuat
+'Tran Hien Diu',Nu,G,G,K,K,G,K,G,K,G,G,K,K,Xa_hoi
+'Nguyen Ã?uc Doanh',Nam,K,K,K,K,K,K,K,G,K,K,K,K,Nghiep_vu
+'Nguyen Minh Duy',Nam,K,K,K,K,K,K,K,K,K,K,K,K,Nghiep_vu
+'Dinh Tien Dai',Nam,TB,K,K,K,K,K,K,K,K,K,K,K,Nghiep_vu
+'Do Tien Dat',Nam,K,K,K,K,K,K,K,K,K,K,K,K,Nghiep_vu
+'Vu Thi Thu Ha',Nu,K,G,K,K,K,G,G,K,G,K,K,G,Nghe_thuat
+'Le Minh Hieu',Nam,K,K,K,K,K,K,K,K,K,K,K,K,Nghiep_vu
+'Hoang Thi Hoa',Nu,K,G,G,K,K,K,G,K,K,K,K,K,Ky_thuat
+'Bui Duc Huy',Nam,K,K,K,K,K,K,G,K,G,K,K,K,Nghiep_vu
+'Dinh Thi Thu Huyen',Nu,G,G,K,K,K,G,G,G,G,G,K,G,Nghe_thuat
+'Nguyen Thi Huong',Nu,G,G,K,K,G,K,G,G,G,G,K,K,Xa_hoi
+'Nguyen Thi Minh Khai',Nu,K,G,K,K,K,K,G,K,G,K,K,K,Nghien_cuu
+'Vu Quang Kien',Nam,K,G,G,K,K,K,G,K,K,K,K,K,Ky_thuat
+'Kim Thi Ngoc Linh',Nu,K,G,K,K,K,K,G,G,K,K,K,K,Nghien_cuu
+'Dinh Thi Luu',Nu,G,G,G,K,G,K,G,K,K,K,K,K,Xa_hoi
+'Nguyen Do Phuong Mai',Nu,G,G,K,K,K,K,G,G,K,K,K,K,Nghien_cuu
+'Dinh Anh Minh',Nam,G,G,K,K,K,K,K,G,K,K,K,K,Nghien_cuu
+'Ha Thi Thanh Nga',Nu,K,G,G,K,K,K,G,K,K,K,K,K,Ky_thuat
+'Tran Trung Nghia',Nam,K,K,K,K,K,K,K,G,K,K,K,K,Nghiep_vu
+'Dinh Trung Nguyen',Nam,K,K,K,K,K,K,K,K,K,K,K,K,Nghiep_vu
+'Ã?ang Thanh Nhan',Nam,K,K,K,K,K,K,G,K,G,K,K,K,Nghiep_vu
+'Nguyen Thi Hong Nhung',Nu,G,K,K,K,G,K,G,G,K,K,K,K,Xa_hoi
+'Nguyen Thi Hong nhung',Nu,G,G,K,K,K,G,G,G,G,K,K,G,Nghe_thuat
+'Nguyen Van Quyen',Nam,G,K,K,K,K,K,G,K,G,K,K,K,Kinh_doanh
+'Nguyen Thi Nhu Quynh',Nu,K,G,G,K,K,K,G,K,G,K,K,K,Ky_thuat
+'Ã?ang Ã?inh Thai',Nam,K,G,G,G,K,G,G,K,G,K,G,G,Nghe_thuat
+'Tran Minh Thanh',Nam,G,G,G,K,K,K,K,G,K,K,K,K,Ky_thuat
+'Truong Van Thanh',Nam,G,K,K,K,K,K,K,K,K,K,K,K,Kinh_doanh
+'Hoang Van Thang',Nam,G,G,G,K,K,K,K,K,K,K,K,K,Ky_thuat
+'Nguyen Thu Thuy',Nu,G,K,K,K,G,G,G,G,G,G,K,G,Nghe_thuat
+'Nguyen Thi Kim Thuy',Nu,G,K,K,G,K,K,G,G,K,K,G,K,Kinh_doanh
+'Pham Minh Thu',Nu,G,K,K,K,G,K,G,G,G,K,K,K,Xa_hoi
+'Nguyen Phuong Trang',Nu,K,G,K,K,G,K,G,G,G,G,K,K,Xa_hoi
+'Nguyen Thi Tuoi',Nu,G,G,K,K,K,K,G,K,G,K,K,K,Nghien_cuu
+'Pham Tien Vu',Nam,G,G,K,K,K,K,G,G,G,K,K,K,Nghien_cuu
+'Nguyen Thi Bao Yen',Nu,G,G,G,G,K,K,G,K,G,K,G,K,Ky_thuat
+'Tran Thi Yen',Nu,G,G,K,G,G,G,G,K,K,G,G,G,Nghe_thuat
+'Bui Viet Anh',Nam,K,K,K,K,K,K,K,TB,K,G,K,K,Nghiep_vu
+'Dinh Lan Anh',Nu,G,K,K,K,G,K,G,G,K,G,K,K,Xa_hoi
+'Tran Duc Anh',Nam,G,G,G,K,K,K,G,K,G,K,K,K,Ky_thuat
+'Tran Thi Cham Anh',Nu,G,G,G,K,K,K,G,K,K,G,K,K,Ky_thuat
+'Nguyen Ngoc Anh',Nu,G,K,G,K,G,K,G,K,K,K,K,K,Xa_hoi
+'Nghiem Manh Binh',Nam,G,G,G,K,K,K,K,K,K,G,K,K,Ky_thuat
+'Nguyen Thanh Binh',Nam,G,K,K,K,G,K,K,K,K,G,K,K,Xa_hoi
+'Do Tien Dung',Nam,G,G,G,K,K,K,K,K,K,K,K,K,Ky_thuat
+'Nguyen Duc Duy',Nam,K,K,K,K,K,K,K,TB,K,K,K,K,Nghiep_vu
+'Nguyen Huu Dat',Nam,K,K,K,K,K,K,G,K,K,K,K,K,Nghiep_vu
+'Nguyen Van Duc',Nam,G,G,G,K,K,K,K,TB,K,K,K,K,Ky_thuat
+'Nguyen Thu Giang',Nu,G,G,G,G,G,G,G,K,G,G,G,G,Nghe_thuat
+'Nguyen Thi Thu Ha',Nu,G,K,K,K,K,K,G,TB,K,K,K,K,Kinh_doanh
+'Nguyen Thu Ha',Nu,K,G,K,K,G,K,G,K,K,K,K,K,Xa_hoi
+'Vu Thi Thu Ha',Nu,G,K,K,K,K,K,K,TB,K,G,K,K,Kinh_doanh
+'Ngo Thi Hai',Nu,G,G,G,K,K,K,G,K,K,K,K,K,Ky_thuat
+'Bui Minh Hieu',Nam,G,G,G,K,K,K,G,TB,K,G,K,K,Ky_thuat
+'Nguyen Van Hieu',Nam,K,K,K,K,K,K,G,TB,G,K,K,K,Nghiep_vu
+'Dam Thi Hoa',Nu,G,K,G,K,G,K,K,K,K,G,K,K,Xa_hoi
+'Tran Thi Thu Hoai',Nu,G,G,G,G,K,K,G,G,K,G,G,K,Ky_thuat
+'Dang Thi Anh Hong',Nu,G,G,G,G,K,K,K,TB,K,K,G,K,Ky_thuat
+'Nguyen The Huan',Nam,K,G,K,K,K,K,K,TB,K,K,K,K,Nghien_cuu
+'Tran Van Huan',Nam,TB,K,K,K,K,K,K,K,K,K,K,K,Nghiep_vu
+'Nguyen Thu Huyen',Nu,K,K,K,K,K,K,G,TB,G,G,K,K,Nghiep_vu
+'Truong Thi Huyen',Nu,G,G,G,K,K,K,K,TB,K,K,K,K,Ky_thuat
+'Bui Duc Khai',Nam,K,K,K,TB,TB,TB,K,TB,K,K,TB,TB,Nghiep_vu
+'Tran Cong Khanh',Nam,K,K,K,K,K,K,G,K,K,G,K,K,Nghiep_vu
+'Nguyen Thi Huong Lan',Nu,K,K,K,K,K,K,G,K,K,G,K,K,Nghiep_vu
+'Dang Phuong Mai',Nu,K,K,K,K,G,G,G,G,K,G,K,G,Nghe_thuat
+'Pham Duy Nghia',Nam,K,G,K,K,K,K,K,K,G,G,K,K,Nghien_cuu
+'Nguyen Van Ngoc',Nam,K,K,K,K,K,K,K,TB,K,G,K,K,Nghiep_vu
+'Trinh Thuy Nhu',Nu,G,G,K,K,G,K,G,K,K,G,K,K,Xa_hoi
+'Nguyen Xuan Phong',Nam,K,K,K,K,K,K,G,TB,K,K,K,K,Nghiep_vu
+'Trinh Thi Thu Phuong',Nu,K,K,K,K,K,K,G,K,K,G,K,K,Nghiep_vu
+'Bui Viet Quang',Nam,G,K,K,K,K,K,Y,K,K,K,K,K,Kinh_doanh
+'Nguyen Minh Quang',Nam,G,G,G,K,K,K,G,K,G,K,K,K,Ky_thuat
+'Dinh Thi Ngoc Quyen',Nu,G,G,G,G,K,K,G,K,G,G,G,K,Ky_thuat
+'Nguyen Manh Sinh',Nam,K,K,K,K,K,K,K,K,K,K,K,K,Nghiep_vu
+'Dinh Van Son',Nam,K,K,K,K,K,K,K,K,K,G,K,K,Nghiep_vu
+'Dinh Trong Tan',Nam,K,K,K,K,K,K,K,K,K,G,K,K,Nghiep_vu
+'Vu Duong Bien',Nam,K,K,K,K,TB,K,G,G,K,K,K,K,Nghiep_vu
+'Nguyen Van Binh',Nam,G,G,K,K,TB,K,K,K,K,K,K,K,Nghien_cuu
+'Nguyen Thi Linh Chi',Nu,K,K,K,K,K,K,G,K,G,G,K,K,Nghiep_vu
+'Hoang Khanh Duy',Nam,K,K,K,K,K,K,G,K,G,G,K,K,Nghiep_vu
+'Nguyen Van Duy',Nam,K,K,K,K,TB,K,K,K,K,K,K,K,Nghiep_vu
+'Do Tien Dao',Nam,TB,K,K,K,TB,K,K,K,K,K,K,K,Nghiep_vu
+'Nguyen Hoang Ha',Nam,K,K,K,K,TB,K,K,K,K,K,K,K,Nghiep_vu
+'Nguyen Thi Hanh',Nu,G,G,G,G,K,K,G,K,K,G,G,K,Ky_thuat
+'Bui Phuc Hau',Nam,G,K,K,G,K,K,G,K,G,G,G,K,Kinh_doanh
+'Phung Thi Hai Hau',Nu,K,K,K,K,K,K,G,K,K,G,K,K,Nghiep_vu
+'Le Ton Hiep',Nam,K,K,K,K,TB,K,K,K,G,K,K,K,Nghiep_vu
+'Tran Xuan Hieu',Nam,K,G,K,G,TB,K,K,K,K,K,G,K,Nghien_cuu
+'Vu Minh Hoang',Nam,K,K,K,K,TB,K,K,K,K,K,K,K,Nghiep_vu
+'Tran Van Hop',Nam,TB,K,K,K,TB,TB,K,K,K,K,K,TB,Nghiep_vu
+'Dinh Thi Khanh Huyen',Nu,G,K,K,K,K,K,G,G,K,G,K,K,Kinh_doanh
+'Nguyen Thuy Huong',Nu,G,G,G,K,K,K,G,K,K,G,K,K,Ky_thuat
+'Nguyen Ba Khanh',Nam,K,K,K,K,TB,K,K,K,K,K,K,K,Nghiep_vu
+'Tran Xuan Khanh',Nam,G,K,K,K,K,K,G,K,K,G,K,K,Kinh_doanh
+'Trinh Bao Khanh',Nam,K,G,K,K,K,K,K,K,G,K,K,K,Nghien_cuu
+'Nguyen Viet Loc',Nam,K,K,K,K,TB,K,K,K,K,G,K,K,Nghiep_vu
+'Truong Van Loc',Nam,K,K,K,K,TB,K,G,K,K,K,K,K,Nghiep_vu
+'Nguyen Thi Nga',Nu,G,G,G,K,K,K,G,G,G,G,K,K,Ky_thuat
+'Van Trong Phong',Nam,K,K,K,K,TB,K,G,K,K,G,K,K,Nghiep_vu
+'Phung Van Phuong',Nam,K,K,K,K,K,K,K,K,K,G,K,K,Nghiep_vu
+'Cao Xuan Quang',Nam,K,K,K,K,TB,K,K,K,K,K,K,K,Nghiep_vu
+'Nguyen Minh Quang',Nam,K,K,K,K,TB,K,K,K,K,K,K,K,Nghiep_vu
+'Tran Ngoc Quan',Nam,K,K,K,K,K,K,K,K,K,G,K,K,Nghiep_vu
+'Nguyen Thi Quynh',Nu,K,K,K,K,K,K,K,G,K,G,K,K,Nghiep_vu
+'Le Ngoc Son',Nam,K,K,K,K,TB,K,G,K,K,K,K,K,Nghiep_vu
+'Ngo Hoang Son',Nam,TB,K,K,K,K,K,K,K,K,K,K,K,Nghiep_vu
+'Nguyen Huu Ngoc Son',Nam,G,G,G,G,K,K,G,K,G,G,G,K,Ky_thuat
+'Nguyen Thi Thanh',Nu,K,K,K,K,TB,K,K,K,G,K,K,K,Nghiep_vu
+'Nguyen Phuong Thuy',Nu,K,K,K,K,K,K,G,K,K,K,K,K,Nghiep_vu
+'Bui Thi Le Thuy',Nu,G,G,G,G,K,K,G,K,K,G,G,K,Ky_thuat
+'Nguyen Thi Mai Thuong',Nu,K,K,K,K,K,K,G,K,K,G,K,K,Nghiep_vu
+'Dao Thi Huyen Trang',Nu,K,K,K,K,K,K,G,G,G,K,K,K,Nghiep_vu
+'Nguyen Thu Trang',Nu,K,K,K,K,K,K,K,K,K,K,K,K,Nghiep_vu
+'Nguyen Van Tuan',Nam,K,K,K,K,K,K,K,K,K,G,K,K,Nghiep_vu
+'Do Thu Uyen',Nu,K,K,K,K,K,K,G,K,K,G,K,K,Nghiep_vu
+'Nguyen Quoc Viet',Nam,K,K,K,K,TB,K,K,K,K,G,K,K,Nghiep_vu
+'Phung Thi Hai Yen',Nu,K,K,K,K,K,K,K,K,G,G,K,K,Nghiep_vu
+'Nguyen Duc Anh',Nam,K,K,K,K,K,K,G,TB,G,K,K,K,Nghiep_vu
+'Nguyen Dinh Chien',Nam,K,K,K,K,K,K,G,TB,K,G,K,K,Nghiep_vu
+'Pham Duc Chinh',Nam,G,K,G,G,K,K,G,K,G,G,G,K,Ky_thuat
+'Nguyen Tri Cong',Nam,K,K,K,K,K,K,G,TB,K,K,K,K,Nghiep_vu
+'Pham Quang Cong',Nam,K,K,K,K,K,K,G,TB,K,G,K,K,Nghiep_vu
+'Nguyen Xuan Dat',Nam,K,K,K,G,K,G,G,TB,K,G,G,G,Nghe_thuat
+'Tran Thi Ha',Nu,G,G,G,G,G,K,G,K,G,G,G,K,Xa_hoi
+'Dinh Van Hai',Nam,K,K,K,K,K,G,G,K,G,G,K,G,Nghe_thuat
+'Dao Thi Thu Hieu',Nu,G,K,K,K,G,K,G,TB,K,G,K,K,Xa_hoi
+'Le Ngoc Hieu',Nam,K,K,K,K,K,K,K,TB,G,G,K,K,Nghiep_vu
+'Vu Ba Hung',Nam,K,K,K,K,K,K,G,TB,K,G,K,K,Nghiep_vu
+'Nguyen Thi Huyen',Nu,K,K,K,K,G,K,G,K,K,G,K,K,Xa_hoi
+'Le Thi Thu Huong',Nu,K,K,K,K,G,G,G,TB,G,G,K,G,Nghe_thuat
+'Hoang Tuan Kiet',Nam,K,K,K,K,K,K,G,TB,K,K,K,K,Nghiep_vu
+'Bui Thi My Linh',Nu,G,K,K,K,G,G,K,K,G,G,K,G,Nghe_thuat
+'Dinh Thi Linh',Nu,K,K,K,K,K,K,G,TB,K,G,K,K,Nghiep_vu
+'Hoang Thi Thuy Linh',Nu,G,K,K,K,G,K,K,K,G,G,K,K,Xa_hoi
+'Nguyen Thi Bich Loan',Nu,G,K,K,G,G,K,G,K,K,G,G,K,Xa_hoi
+'Tran Thi Tra My',Nu,K,K,K,K,K,K,G,TB,G,K,K,K,Nghiep_vu
+'Ho Phuong Nam',Nam,K,K,K,K,K,K,G,TB,G,G,K,K,Nghiep_vu
+'Hoang Thi Phuong Nga',Nu,K,G,G,G,G,K,G,TB,G,G,G,K,Xa_hoi
+'Pham Thi Ngan',Nu,K,K,K,K,K,K,G,TB,G,G,K,K,Nghiep_vu
+'Nguyen Dinh Nghia',Nam,G,K,K,K,K,K,G,TB,K,K,K,K,Kinh_doanh
+'Nguyen Huu Nghia',Nam,K,K,K,K,K,K,K,TB,K,K,K,K,Nghiep_vu
+'Nguyen Nhu Ngoc',Nu,G,G,G,G,G,K,G,TB,G,G,G,K,Xa_hoi
+'Bui Trang Nhung',Nu,K,K,K,K,G,K,G,K,G,G,K,K,Xa_hoi
+'Ngo Van Phuc',Nam,G,K,K,K,K,K,G,TB,K,K,K,K,Kinh_doanh
+'Nguyen Trung Soai',Nam,K,K,K,K,K,K,G,TB,K,G,K,K,Nghiep_vu
+'Bach Thanh Son',Nam,K,K,K,K,K,K,G,TB,G,K,K,K,Nghiep_vu
+'Nguyen Thi Phuong Thanh',Nu,G,K,K,K,G,G,G,K,G,G,K,G,Nghe_thuat
+'Nguyen Duc Thanh',Nam,G,K,K,K,K,K,G,TB,K,K,K,K,Kinh_doanh
+'Le Van Thang',Nam,G,K,K,K,G,K,G,K,K,G,K,K,Xa_hoi
+'Mai Thi Thoan',Nu,K,K,K,K,G,K,G,TB,G,K,K,K,Xa_hoi
+'Tran Cong Tien',Nam,K,K,K,K,K,K,K,TB,K,G,K,K,Nghiep_vu
+'Nguyen Huu Trang',Nam,G,K,K,K,K,K,G,K,K,G,K,K,Kinh_doanh
+'Nguyen Thi Thu Trang',Nu,G,K,K,K,G,K,G,K,G,G,K,K,Xa_hoi
+'Le Duy Trinh',Nam,K,K,K,K,K,K,G,TB,K,K,K,K,Nghiep_vu
+'Nguyen Tri Trung',Nam,K,K,K,K,K,K,K,TB,K,K,K,K,Nghiep_vu
+'Nguyen Manh Tuan',Nam,K,K,K,K,K,K,G,TB,G,G,K,K,Nghiep_vu
+'Dinh Xuan Tuyen',Nam,G,K,G,K,K,K,G,TB,K,G,K,K,Ky_thuat
+'Nguyen Ha Vi',Nu,G,K,K,G,G,K,G,K,G,G,G,K,Xa_hoi
+'Le Tuan Anh',Nam,K,K,K,TB,K,K,K,TB,K,K,TB,K,Nghiep_vu
+'Nguyen Duc Tuan Anh',Nam,G,G,K,K,K,K,G,K,K,K,K,K,Nghien_cuu
+'Pham Thi Thanh Anh',Nu,K,K,K,K,K,K,G,K,K,K,K,K,Nghiep_vu
+'Vu Ngoc Anh',Nu,K,K,K,K,K,K,G,TB,K,K,K,K,Nghiep_vu
+'Vu Thi Cham',Nu,G,G,K,K,K,K,G,K,G,G,K,K,Nghien_cuu
+'Vu Kim Chi',Nu,K,K,K,K,K,G,G,TB,K,K,K,G,Nghe_thuat
+'Vu Thi Le Chi',Nu,K,K,K,TB,K,K,G,TB,G,K,TB,K,Nghiep_vu
+'Nguyen Van Cuong',Nam,G,G,K,K,K,K,G,K,G,K,K,K,Nghien_cuu
+'La Van Dung',Nam,K,K,K,K,K,K,G,K,G,K,K,K,Nghiep_vu
+'Nguyen Van Dung',Nam,G,G,K,TB,K,G,G,K,G,K,TB,G,Nghe_thuat
+'Tran Duc Duy',Nam,K,K,K,K,K,K,G,K,K,K,K,K,Nghiep_vu
+'Nguyen Van Da',Nam,TB,K,K,TB,TB,K,G,TB,K,K,TB,K,Nghiep_vu
+'Phung Van Giang',Nam,G,G,K,K,K,K,G,K,G,K,K,K,Nghien_cuu
+'Phan Thi Huyen Hao',Nu,K,K,K,K,K,K,G,K,K,K,K,K,Nghiep_vu
+'Vu Thi Hao',Nu,K,K,K,K,K,K,G,TB,G,K,K,K,Nghiep_vu
+'Vu Thi Hien',Nu,G,K,K,K,K,K,K,TB,K,K,K,K,Kinh_doanh
+'Nguyen Thi Thu Hoai',Nu,K,K,K,K,K,K,G,TB,G,K,K,K,Nghiep_vu
+'Bach Van Hoang',Nam,K,K,K,TB,TB,K,G,TB,K,TB,TB,K,Nghiep_vu
+'Pham Van Hung',Nam,K,K,K,K,K,K,G,TB,G,K,K,K,Nghiep_vu
+'Nguyen Huu Hung',Nam,G,K,K,K,K,K,G,TB,K,K,K,K,Kinh_doanh
+'Nguyen Thi Lan Huong',Nu,K,K,K,K,K,K,G,K,G,K,K,K,Nghiep_vu
+'Nguyen Thi Thu Huong',Nu,K,K,K,K,K,K,G,K,K,K,K,K,Nghiep_vu
+'Do Trung Kien',Nam,K,K,K,G,K,K,G,K,G,K,G,K,Nghiep_vu
+'Le Hai Ly',Nu,K,K,K,K,K,K,G,K,K,K,K,K,Nghiep_vu
+'Do Van Minh',Nam,K,K,K,TB,TB,K,G,TB,K,TB,TB,K,Nghiep_vu
+'Hoang Van Minh',Nam,K,K,K,K,K,K,G,K,G,K,K,K,Nghiep_vu
+'Tran Hai Nam',Nam,G,K,K,K,K,K,G,TB,K,K,K,K,Kinh_doanh
+'Kim Thi Hong Nhung',Nu,TB,K,K,K,K,K,G,TB,G,K,K,K,Nghiep_vu
+'Dinh Van Quang',Nam,K,K,K,K,TB,K,G,TB,G,K,K,K,Nghiep_vu
+'Pham Van Quan',Nam,K,K,K,K,TB,K,G,TB,G,K,K,K,Nghiep_vu
+'Dinh Thi Thao',Nu,K,K,G,K,K,K,G,K,G,K,K,K,Ky_thuat
+'Nguyen Thi Thao',Nu,K,G,K,K,K,K,G,K,G,K,K,K,Nghien_cuu
+'Le Ã?uc Thang',Nam,K,G,K,K,K,K,G,K,G,K,K,K,Nghien_cuu
+'Phung Van The',Nam,K,K,K,K,TB,K,G,TB,G,K,K,K,Nghiep_vu
+'Nguyen Duc Thinh',Nam,G,G,K,K,K,K,G,K,K,K,K,K,Nghien_cuu
+'Dinh Van Tien',Nam,K,K,K,TB,K,K,K,TB,G,K,TB,K,Nghiep_vu
+'Dinh Thi Trang',Nu,K,K,K,K,K,K,G,K,G,K,K,K,Nghiep_vu
+'Dinh Van Tung',Nam,G,G,K,TB,K,K,K,K,K,K,TB,K,Nghien_cuu
+'Nguyen Huu Tuyen',Nam,K,K,K,TB,K,K,K,TB,K,K,TB,K,Nghiep_vu
+'Duong Thi Tu Anh',Nu,K,K,K,G,K,K,G,TB,G,G,G,K,Nghiep_vu
+'Nguyen Thi Quynh Anha',Nu,Y,K,Y,Y,K,Y,Y,Y,G,G,Y,Y,Nghiep_vu
+'Nguyen Thi Quynh Anh',Nu,G,K,K,K,K,K,K,TB,G,K,K,K,Kinh_doanh
+'Vu Thi Anh',Nu,K,K,K,K,K,K,G,K,G,K,K,K,Nghiep_vu
+'Hoang Van Cong',Nam,K,K,K,K,TB,K,G,K,G,K,K,K,Nghiep_vu
+'Nguyen Tien Duong',Nam,K,TB,TB,K,TB,K,K,TB,K,K,K,K,Nghiep_vu
+'Le Ngoc Dai',Nam,G,TB,K,K,K,K,K,TB,G,K,K,K,Kinh_doanh
+'Nguyen Viet Duc',Nam,K,K,K,G,K,K,K,K,G,K,G,K,Nghiep_vu
+'Phung Minh Duc',Nam,K,K,TB,K,K,K,K,TB,G,K,K,K,Nghiep_vu
+'Nguyen Thi Thanh Ha',Nu,K,K,K,K,K,G,G,TB,G,K,K,G,Nghe_thuat
+'Pham Quang Hai',Nam,K,K,K,K,TB,K,G,TB,K,G,K,K,Nghiep_vu
+'Trinh Ngoc Hai',Nam,K,K,K,K,K,K,G,TB,G,G,K,K,Nghiep_vu
+'Tran Thi Hanh',Nu,K,K,G,G,K,K,G,K,G,G,G,K,Ky_thuat
+'Vu Thi Hang',Nu,K,G,G,G,K,K,G,TB,G,G,G,K,Ky_thuat
+'Dao Thi Mai Hien',Nu,K,K,K,K,K,G,G,TB,G,K,K,G,Nghe_thuat
+'Duong Tien Hoan',Nam,K,K,K,K,K,K,G,TB,G,G,K,K,Nghiep_vu
+'Nguyen Thi Huong',Nu,K,K,K,K,K,K,G,TB,G,K,K,K,Nghiep_vu
+'Nguyen Duc Khang',Nam,K,K,K,K,K,K,K,K,G,K,K,K,Nghiep_vu
+'Vu Thi Phuong Lan',Nu,K,K,K,G,K,K,G,TB,G,G,G,K,Nghiep_vu
+'Phung Thi Thanh Loan',Nu,K,K,K,K,K,K,G,TB,G,K,K,K,Nghiep_vu
+'Kim Ngoc Long',Nam,K,K,K,K,K,K,K,TB,G,G,K,K,Nghiep_vu
+'Bui Thi Hong Ly',Nu,K,K,K,G,K,K,G,K,G,G,G,K,Nghiep_vu
+'Bui Phan Ngoc Minh',Nam,K,K,K,K,TB,K,K,TB,TB,K,K,K,Nghiep_vu
+'Le Duc Minh',Nam,K,K,K,K,K,K,G,TB,G,G,K,K,Nghiep_vu
+'Le Hong Ngoc',Nu,K,K,K,K,K,K,G,K,G,K,K,K,Nghiep_vu
+'Nguyen Duc Phuoc',Nam,G,K,K,K,K,K,K,TB,G,K,K,K,Kinh_doanh
+'Nguyen Trung Quan',Nam,K,TB,K,K,K,K,K,TB,G,K,K,K,Nghiep_vu
+'Le Thi Quy',Nu,K,G,G,G,G,K,G,K,G,G,G,K,Xa_hoi
+'Nguyen Thi Thu Thanh',Nu,G,K,G,G,K,K,K,TB,G,G,G,K,Ky_thuat
+'Nguyen Van Thinh',Nam,G,K,G,G,K,G,K,TB,G,G,G,G,Nghe_thuat
+'Dinh Thi Thu',Nu,K,K,G,G,K,K,G,TB,G,G,G,K,Ky_thuat
+'Nguyen Thi Thuy',Nu,K,K,K,G,G,K,G,G,G,G,G,K,Xa_hoi
+'Duong Duc Toan',Nam,K,G,G,G,K,K,G,K,G,K,G,K,Ky_thuat
+'Hoang Van Trung',Nam,K,K,K,K,K,K,G,TB,G,K,K,K,Nghiep_vu
+'Mai Van Tuan',Nam,TB,K,K,K,TB,K,G,TB,G,K,K,K,Nghiep_vu
+'Mai Thanh Tung',Nam,K,K,K,K,K,K,K,TB,G,K,K,K,Nghiep_vu
+'Nguyen Long Vu',Nam,G,K,K,K,K,K,K,TB,G,K,K,K,Kinh_doanh
+'Dinh Thi Xoan',Nu,K,K,K,K,K,K,K,TB,G,K,K,K,Nghiep_vu
+'Nguyen Dinh Duc Anh',Nam,G,G,G,K,G,K,G,K,K,G,K,K,Xa_hoi
+'Nguyen Thi Trung Anh',Nu,K,K,K,K,G,K,K,TB,G,K,K,K,Xa_hoi
+'Le Tran Ngoc Anh',Nu,K,K,K,K,G,K,K,TB,G,G,K,K,Xa_hoi
+'Bui Minh Cong',Nam,K,K,K,K,K,K,K,TB,G,K,K,K,Nghiep_vu
+'Le Tien Dung',Nam,K,K,TB,K,K,K,K,Y,K,G,K,K,Nghiep_vu
+'Nguyen Anh Dung',Nam,K,K,K,K,K,K,K,TB,K,K,K,K,Nghiep_vu
+'Dang Tien Duong',Nam,G,K,K,K,K,K,K,TB,K,K,K,K,Kinh_doanh
+'Nguyen Minh Duc',Nam,K,K,K,K,G,K,K,TB,G,G,K,K,Xa_hoi
+'Kim Thi Thu Ha',Nu,K,K,K,K,K,K,K,TB,K,K,K,K,Nghiep_vu
+'Bui Van Hieu',Nam,G,K,K,G,G,K,G,G,G,K,G,K,Xa_hoi
+'Do Van Hieu',Nam,K,K,K,K,K,K,K,TB,G,K,K,K,Nghiep_vu
+'Nguyen Van Hoang',Nam,K,K,K,K,K,K,K,TB,K,K,K,K,Nghiep_vu
+'Nguyen Thi Hue',Nu,G,G,K,K,G,K,G,K,G,G,K,K,Xa_hoi
+'Mai Quang Huy',Nam,K,G,K,K,K,K,G,TB,G,K,K,K,Nghien_cuu
+'Dinh Thi Thu Huyen',Nu,K,K,K,K,G,K,K,K,G,G,K,K,Xa_hoi
+'Le Thi Khanh Huyen',Nu,K,K,K,K,K,K,K,TB,K,K,K,K,Nghiep_vu
+'Nguyen Thi Thanh Huyen',Nu,K,K,K,K,K,K,K,TB,G,K,K,K,Nghiep_vu
+'Tran Thi Huyen',Nu,K,K,K,K,K,K,K,TB,G,K,K,K,Nghiep_vu
+'Vu Thi Mai Huong',Nu,G,K,K,K,G,K,G,TB,G,K,K,K,Xa_hoi
+'Dinh Thi Huong',Nu,G,G,G,G,G,K,G,K,K,K,G,K,Xa_hoi
+'Trinh Van Khang',Nam,K,K,K,K,K,K,G,TB,K,G,K,K,Nghiep_vu
+'Nguyen Thi Mai Lan',Nu,G,K,K,K,K,K,G,K,G,K,K,K,Kinh_doanh
+'Tran Thi Phuong Lien',Nu,G,G,G,K,G,G,G,G,G,G,K,G,Nghe_thuat
+'Pham Khanh Linh',Nu,K,K,K,K,G,K,G,TB,G,K,K,K,Xa_hoi
+'Dinh Thanh Long',Nam,K,K,K,K,K,K,K,TB,K,K,K,K,Nghiep_vu
+'Nguyen Thi Man',Nu,G,K,K,K,G,K,G,K,G,G,K,K,Xa_hoi
+'Le Thi A Na',Nu,K,K,K,K,G,K,G,K,G,K,K,K,Xa_hoi
+'Bach Thi Thanh Nga',Nu,G,K,K,K,G,K,G,K,G,K,K,K,Xa_hoi
+'Hoang Thi Kim Ngan',Nu,K,K,K,K,G,K,K,TB,G,K,K,K,Xa_hoi
+'Nguyen Thi Ngoc',Nu,K,K,K,K,G,K,K,TB,G,G,K,K,Xa_hoi
+'Bui Duy Nham',Nam,K,G,K,K,K,K,K,TB,K,K,K,K,Nghien_cuu
+'Hoang Van Quy',Nam,TB,K,K,K,K,K,K,TB,K,K,K,K,Nghiep_vu
+'Ã?ang Quang Son',Nam,K,K,K,K,K,K,K,TB,K,G,K,K,Nghiep_vu
+'Truong Cong Son',Nam,TB,TB,TB,K,K,K,K,Y,K,K,K,K,Nghiep_vu
+'Bach Thanh Tam',Nu,K,K,K,K,G,K,G,TB,G,K,K,K,Xa_hoi
+'Le Thi My Tan',Nu,K,K,K,K,G,K,K,K,G,K,K,K,Xa_hoi
+'Phung Viet Tan',Nam,K,K,K,K,K,K,K,TB,G,K,K,K,Nghiep_vu
+'Le Thi Thanh',Nu,G,G,K,K,G,G,G,K,G,K,K,G,Nghe_thuat
+'Doan Thi Tham',Nu,G,G,K,K,G,K,K,K,K,G,K,K,Xa_hoi
+'Nguyen Duc Thinh',Nam,G,K,K,K,G,K,K,TB,K,G,K,K,Xa_hoi
+'Pham Thi Kim Thu',Nu,G,K,K,K,K,G,G,K,G,G,K,G,Nghe_thuat
+'Nguyen Thi Thanh Thuy',Nu,G,K,K,K,G,K,G,K,G,K,K,K,Xa_hoi
+'Mai Cong Tuan',Nam,G,K,K,K,G,K,G,TB,K,K,K,K,Xa_hoi
+'Dinh Thi Tuoi',Nu,G,K,K,K,G,K,K,K,G,K,K,K,Xa_hoi
+'Mai Danh Uy',Nam,Y,Y,Y,G,G,Y,G,Y,G,Y,G,Y,Xa_hoi
+'Nguyen Thi Kim Anh',Nu,G,G,K,K,G,G,G,G,G,G,K,G,Nghe_thuat
+'Dang Thi Duyen',Nu,G,G,K,K,G,G,G,G,G,G,K,G,Nghe_thuat
+'Le Thi Thuy Duong',Nu,G,K,K,K,G,G,G,K,G,G,K,G,Nghe_thuat
+'Phung Viet Duc',Nam,K,K,K,K,K,K,K,G,G,G,K,K,Nghiep_vu
+'Nguyen Thi Giang',Nu,G,G,K,K,K,G,G,G,G,G,K,G,Nghe_thuat
+'Mai Hong Hai',Nam,K,K,K,K,K,K,K,K,K,G,K,K,Nghiep_vu
+'Nguyen Thi Hien',Nu,G,G,G,G,G,G,G,G,G,G,G,G,Nghe_thuat
+'Dinh Thu Hien',Nu,G,G,K,K,K,G,K,G,G,G,K,G,Nghe_thuat
+'Nguyen Thi Thu Hoa',Nu,K,K,K,K,K,K,K,G,K,K,K,K,Nghiep_vu
+'Pham Thi Thanh Huyen',Nu,G,K,K,K,K,G,K,K,K,K,K,G,Nghe_thuat
+'Bui Thi Huong',Nu,K,K,K,K,K,G,K,K,G,K,K,G,Nghe_thuat
+'Le Thi Huong',Nu,G,G,K,K,K,G,K,G,G,K,K,G,Nghe_thuat
+'Nguyen Thi Huong',Nu,G,K,K,K,K,K,K,K,G,G,K,K,Kinh_doanh
+'Tran Chi Kien',Nam,G,K,K,K,K,G,G,G,G,G,K,G,Nghe_thuat
+'Dinh Thi Lan',Nu,K,K,K,K,K,K,K,G,G,K,K,K,Nghiep_vu
+'Nguyen Thi Dieu Linh',Nu,G,G,K,K,K,G,K,K,K,K,K,G,Nghe_thuat
+'Vu Thi Thuy Linh',Nu,G,G,K,K,K,G,K,K,G,G,K,G,Nghe_thuat
+'Nguyen Thi Ly',Nu,G,K,K,K,K,G,K,G,G,G,K,G,Nghe_thuat
+'Vu Thi Mai',Nu,G,K,K,K,K,G,K,G,G,K,K,G,Nghe_thuat
+'Nghiem Van Manh',Nam,K,K,K,K,K,K,K,K,K,K,K,K,Nghiep_vu
+'Nguyen Van Manh',Nam,G,K,K,K,K,K,K,K,G,K,K,K,Kinh_doanh
+'Vu Xuan Nam',Nam,G,G,K,K,K,K,G,G,G,K,K,K,Nghien_cuu
+'Phan Phung Yen Nhi',Nu,K,G,K,K,G,G,K,G,G,G,K,G,Nghe_thuat
+'Dao Le Nhuan',Nu,K,K,K,K,K,G,K,K,G,G,K,G,Nghe_thuat
+'Dinh Thi Nhung',Nu,G,K,K,K,K,G,G,G,G,G,K,G,Nghe_thuat
+'Nguyen Hong Phuc',Nam,K,G,K,K,K,G,G,G,G,K,K,G,Nghe_thuat
+'Nguyen Anh Quoc',Nam,K,K,K,K,K,K,K,K,TB,K,K,K,Nghiep_vu
+'Nghiem Van Son',Nam,K,K,K,K,K,K,G,K,K,K,K,K,Nghiep_vu
+'Nguyen Thanh Tai',Nam,K,K,K,K,K,K,K,K,TB,K,K,K,Nghiep_vu
+'Nguyen Thi Thuy',Nu,K,G,K,K,K,K,G,K,G,G,K,K,Nghien_cuu
+'Bach Thi Trang',Nu,G,G,K,G,G,G,G,G,G,G,G,G,Nghe_thuat
+'Hoang Thi Hoai Trang',Nu,G,K,K,K,G,G,K,G,G,G,K,G,Nghe_thuat
+'Nguyen Thi Trang',Nu,K,G,K,G,K,K,K,K,G,K,G,K,Nghien_cuu
+'Nguyen Thi Huyen Trang',Nu,G,G,G,G,G,G,G,G,G,G,G,G,Nghe_thuat
+'Ã?ang Minh Tuan',Nam,K,K,K,K,K,K,K,K,G,K,K,K,Nghiep_vu
+'Mai Thanh Tuan',Nam,G,G,K,K,K,K,G,G,K,G,K,K,Nghien_cuu
+'Bui Xuan Tung',Nam,K,K,K,K,K,K,K,K,K,G,K,K,Nghiep_vu
+'Pham Van Uy',Nam,K,K,K,K,K,K,K,K,K,G,K,K,Nghiep_vu
+'Nguyen Thi Van',Nu,K,K,K,K,G,K,K,G,G,G,K,K,Xa_hoi
+'Nguyen Thi Thao Van',Nu,K,G,K,K,K,G,K,K,G,G,K,G,Nghe_thuat
+'Nguyen Thi Yen',Nu,K,G,K,K,G,G,K,G,G,G,K,G,Nghe_thuat
+'Nguyen Ngoc Anh',Nu,K,TB,K,K,K,K,K,K,G,K,K,K,Nghiep_vu
+'Nguyen Thi Ngoc Anh',Nu,K,TB,K,K,K,K,G,K,G,K,K,K,Nghiep_vu
+'Nguyen Huu Binh',Nam,K,K,TB,K,K,K,G,K,G,K,K,K,Nghiep_vu
+'Nghiem Thi Thuy Duong',Nu,G,K,K,K,K,K,G,G,G,K,K,K,Kinh_doanh
+'Nguyen Tien Dat',Nam,TB,TB,K,K,K,K,G,K,G,K,K,K,Nghiep_vu
+'Nguyen Duy Dong',Nam,K,TB,K,K,K,K,K,K,K,K,K,K,Nghiep_vu
+'Nguyen Van Duc',Nam,TB,K,K,K,K,K,G,K,K,K,K,K,Nghiep_vu
+'Nguyen Thi Giang',Nu,G,G,G,K,G,K,G,G,G,K,K,K,Xa_hoi
+'Le Thu Ha',Nu,G,K,G,K,K,K,G,K,G,G,K,K,Ky_thuat
+'Pham Thi Thanh Hai',Nu,G,K,K,G,K,K,G,G,G,K,G,K,Kinh_doanh
+'Nguyen Thi Thu Hien',Nu,K,K,K,K,K,K,K,K,G,K,K,K,Nghiep_vu
+'Nguyen Thi Hong Hoa',Nu,K,TB,K,K,K,K,K,K,K,K,K,K,Nghiep_vu
+'Bui Thi Lan Huong',Nu,TB,K,K,K,K,K,G,K,G,K,K,K,Nghiep_vu
+'Dinh Thi Thuy Huong',Nu,K,K,K,K,K,K,G,G,G,K,K,K,Nghiep_vu
+'Nguyen Thi Lan',Nu,TB,TB,K,K,K,K,K,K,K,G,K,K,Nghiep_vu
+'Nguyen Thi Linh',Nu,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Nghiep_vu
+'Nguyen Ngoc Long',Nam,TB,TB,TB,K,K,K,K,K,K,K,K,K,Nghiep_vu
+'Dang Van Loi',Nam,K,K,TB,K,K,K,G,G,K,K,K,K,Nghiep_vu
+'Bui Thi Mai',Nu,K,K,K,K,K,K,G,K,G,K,K,K,Nghiep_vu
+'Do Quang Minh',Nam,K,K,TB,K,K,K,G,K,K,K,K,K,Nghiep_vu
+'Nguyen Van Nam',Nam,K,TB,K,K,K,K,K,K,TB,K,K,K,Nghiep_vu
+'Bui Thi Kim Ngan',Nu,K,TB,K,K,K,K,G,G,G,K,K,K,Nghiep_vu
+'Bui Minh Nguyet',Nu,K,TB,K,K,K,K,G,K,G,K,K,K,Nghiep_vu
+'Pham Trang Nhung',Nu,TB,K,TB,K,K,K,G,G,G,K,K,K,Nghiep_vu
+'Dao Viet Phat',Nam,K,TB,K,K,K,K,G,K,K,K,K,K,Nghiep_vu
+'Nguyen Thi Phuong',Nu,K,K,K,K,K,K,K,K,G,K,K,K,Nghiep_vu
+'Bui Ngoc Son',Nam,K,K,K,K,K,K,K,K,G,K,K,K,Nghiep_vu
+'Nguyen Duc Tam',Nam,K,TB,TB,K,K,K,K,K,K,K,K,K,Nghiep_vu
+'Nguyen Cong Thanh',Nam,K,TB,TB,K,K,K,G,K,TB,K,K,K,Nghiep_vu
+'Phung Thi Thao',Nu,G,K,G,G,K,K,G,G,G,K,G,K,Ky_thuat
+'Bui Cong The',Nam,K,TB,TB,K,K,K,K,K,G,K,K,K,Nghiep_vu
+'Do Chi Thong',Nam,TB,TB,TB,K,K,K,K,K,K,K,K,K,Nghiep_vu
+'Nghiem Thi Thom',Nu,K,K,K,K,K,K,G,K,G,K,K,K,Nghiep_vu
+'Nghiem Thi Thu',Nu,K,K,K,K,K,K,G,K,G,K,K,K,Nghiep_vu
+'Nguyen Thi Thuy',Nu,G,G,K,G,K,K,G,G,G,G,G,K,Nghien_cuu
+'Nguyen Thi Thu Thuy',Nu,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Nghiep_vu
+'Hoang Thi Thuy Tien',Nu,K,K,K,K,K,K,G,G,K,K,K,K,Nghiep_vu
+'Dinh Van Trung',Nam,K,K,G,K,K,K,G,K,G,K,K,K,Ky_thuat
+'Nguyen Huu Truong',Nam,TB,K,K,G,K,K,K,K,K,K,G,K,Nghiep_vu
+'Pham Duy Tuan',Nam,TB,TB,TB,K,K,K,K,K,K,K,K,K,Nghiep_vu
+'Le Quang Tuyen',Nam,K,K,G,G,K,K,G,K,G,K,G,K,Ky_thuat
+'Bui Anh Tuyet',Nu,TB,TB,K,K,K,K,K,K,K,K,K,K,Nghiep_vu
+'Dinh Thi My Uyen',Nu,TB,K,K,K,K,K,G,K,G,K,K,K,Nghiep_vu
+'Nguyen Trung Yen',Nam,K,K,K,K,K,K,G,G,K,K,K,K,Nghiep_vu

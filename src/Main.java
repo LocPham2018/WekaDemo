@@ -1,12 +1,12 @@
 import weka.classifiers.functions.MultilayerPerceptron;
-import weka.core.Debug;
-import weka.core.Instances;
+import weka.classifiers.trees.J48;
+import weka.core.*;
 import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.Normalize;
 
 public class Main {
 
-    public static final String DATASETPATH = "lop12.arff";
+    public static final String DATASETPATH = "data.arff";
     public static final String MODElPATH = "model.bin";
 
     public static void main(String[] args) throws Exception {
@@ -30,7 +30,7 @@ public class Main {
         //Instances testdataset = new Instances(datasetnor, trainSize, testSize);
 
         // build classifier with train dataset
-        MultilayerPerceptron ann = (MultilayerPerceptron) mg.buildClassifier(dataset);
+//        MultilayerPerceptron ann = (MultilayerPerceptron) mg.buildClassifier(dataset);
 
         // Evaluate classifier with test dataset
         /*
@@ -40,10 +40,19 @@ public class Main {
         //Save model
         mg.saveModel(ann, MODElPATH);
 
-        //classifiy a single instance
+        //classify a single instance
         ModelClassifier cls = new ModelClassifier();
-        String classname =cls.classifiy(Filter.useFilter(cls.createInstance(1.6, 0.2, 0), filter), MODElPATH);
+        String classname =cls.classify(Filter.useFilter(cls.createInstance(1.6, 0.2, 0), filter), MODElPATH);
         System.out.println("\n The class name for the instance with petallength = 1.6 and petalwidth =0.2 is  " +classname);
 */
+
+        J48 j48 = new J48();
+        j48.buildClassifier(dataset);
+        SerializationHelper.write(MODElPATH, j48);
+
+        ModelClassifier cls = new ModelClassifier();
+        String[] grade = {"Gioi", "Gioi", "Gioi", "Gioi", "Kha", "Kha", "TB", "Kha"};
+        String classname = cls.classify(cls.createInstance(grade), MODElPATH);
+        System.out.println(classname);
     }
 }
